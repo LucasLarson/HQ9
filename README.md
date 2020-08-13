@@ -82,7 +82,7 @@ more popular successor to the B&nbsp;programming&nbsp;language.
 
 C89 is the functional equivalent of ANSI&nbsp;C and was published in the
 late&nbsp;1900s. In 2020, [v0.3.1 of this HQ9+
-interpeter](https://github.com/LucasLarson/HQ9/tree/v0.3.1) was published
+interpreter](https://github.com/LucasLarson/HQ9/tree/v0.3.1) was published
 in&nbsp;C89.
 
 ##### C89.5
