@@ -1,0 +1,23 @@
+name: C++ CI
+
+on:
+  push:
+    branches:
+    - main
+    - .*
+  pull_request:
+    branches:
+    - main
+    - .*
+  schedule:
+    - cron: "0 14 * * *"
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: build
+      run: clang++ -std=c++2a --verbose -Wall -Wextra -pedantic -g -integrated-as -lm -lstdc++ -O0 -pthread -save-stats -save-temps -v -fcaret-diagnostics -fdiagnostics-fixit-info -fno-builtin -fdiagnostics-parseable-fixits -fshow-column -fstandalone-debug -fdiagnostics-print-source-range-info -fdiagnostics-show-option -fshow-source-location -ftime-report $(find * -iname '*\.cpp') -o HQ9+

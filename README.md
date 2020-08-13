@@ -1,57 +1,125 @@
-# HQ9
+# HQ9+
+
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Build](#build)
 - [Background](#background)
-  - [HQ9](#hq9-1)
+- [Implementation](#implementation)
   - [C](#c)
-    - [89](#89)
-  - [C89.5](#c895)
+    - [C89](#c89)
+      - [C89.5](#c895)
+  - [C++](#c-1)
+    - [C++20](#c20)
+- [Caveats](#caveats)
 
 <!-- /TOC -->
-This is an interpreter of the HQ9 programming language, written in C89. It supports the entire HQ9 language. The output of the 9 argument is Rosetta Stone-compliant and takes a balanced approach to the recursion-versus-readability problem.
+This is an interpreter of the entire HQ9+ programming language, implemented
+in&nbsp;C++20. The output of&nbsp;`9` is Rosetta&nbsp;Stone-compliant and
+takes a balanced approach to the recursion-versus-readability&nbsp;problem.
 
 ## Build
-This interpreter can be built and tested on almost any C compiler built since the 1980s. Testing beyond compilation was completed using Clang 11.0.3 on macOS 10.15.5.
-1.  Get the code
+
+This interpreter can be built and tested with almost any C++ compiler built
+since the&nbsp;2010s. Testing beyond compilation was completed using
+Clang&nbsp;12.0.0 on macOS&nbsp;11.0&nbsp;beta and GCC&nbsp;8.3.0 on
+Alpine&nbsp;Linux&nbsp;3.10.0 on iSH&nbsp;1.0&nbsp;(73) on
+iOS&nbsp;14.0&nbsp;beta.
+
+1. Open a terminal and get the&nbsp;code
+
 ```shell
 git clone --verbose --recurse-submodules --progress \
  --branch main https://github.com/LucasLarson/HQ9
 ```
-2.  move to the newly downloaded content
+
+2. move to the newly downloaded&nbsp;content
+
 ```shell
-cd HQ9
+cd HQ9 || return 1
 ```
-3.  build the executable for your machine
+
+3. build the executable for your&nbsp;machine
+
 ```shell
-clang main.c \
- --verbose -std=c89 -ffreestanding -fno-builtin -O0 -g \
- -fstandalone-debug -save-temps -save-stats -integrated-as \
- -ftime-report -fshow-column -fshow-source-location \
- -fcaret-diagnostics -fdiagnostics-fixit-info \
- -fdiagnostics-parseable-fixits -fdiagnostics-print-source-range-info \
- -fdiagnostics-show-option -o HQ9
+clang++ -std=c++2a --verbose -v -Wall -Wextra -pedantic -g -lm -lstdc++ -O0 \
+  -fcaret-diagnostics -fdiagnostics-fixit-info -fdiagnostics-parseable-fixits \
+  -fdiagnostics-print-source-range-info -fdiagnostics-show-option -fident \
+  -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
+  -ftime-report -ftrapv -integrated-as -pthread -save-stats -save-temps \
+  $(find * -iname '*\.cpp') -o HQ9+ || ./bootstrap.sh
 ```
-4.  add HQ9 to your PATH
+
+4. run the&nbsp;executable
+
 ```shell
-export PATH="$PWD:$PATH"
+./HQ9+
 ```
-5.  replace `H` with any element from the entire language, like `Q` or `9`
+
+5. try any combination of input specified in the&nbsp;language. My
+favorite’s&nbsp;`9`:
+
 ```shell
-   HQ9 H \
-|| HQ9 Q \
-|| HQ9 9
+9
 ```
+
 ---
 ## Background
-### HQ9
-HQ9 is a streamlined version of the more popular HQ9+ programming language, which was written by Cliff L. Biffle in the early 2000s.
+
+HQ9+ is a programming language written by Cliff L. Biffle in the
+early&nbsp;2000s. <!--
+oldest extant copy of the specification:
+web.archive.org/web/20010511232301id_/cliff.biffle.org/esoterica/hq9plus.html
+-->
+
+## Implementation
 
 ### C
-C is the more popular successor to the B programming language, which was written by Dennis Ritchie and Ken Thompson in the mid-1900s.
 
-#### 89
-C89 is the functional equivalent of ANSI C and was published in the late 1900s.
+C, written by Dennis Ritchie and Ken Thompson in the&nbsp;mid‑1900s, is the
+more popular successor to the B&nbsp;programming&nbsp;language.
 
-### C89.5
-There has long been an excellent public radio station in Seattle broadcasting at 89½ MHz. In spoken vernacular, it, too, is often referred to as C89. Please [support](https://c895.org/donate) their work.
+#### C89
+
+C89 is the functional equivalent of ANSI&nbsp;C and was published in the
+late&nbsp;1900s. In 2020, [v0.3.1 of this HQ9+
+interpeter](https://github.com/LucasLarson/HQ9/tree/v0.3.1) was published
+in&nbsp;C89.
+
+##### C89.5
+
+There has long been an excellent public radio station in Seattle broadcasting
+at 89½ MHz. In spoken vernacular, it, too, is often referred to as&nbsp;C89.
+Please [support](https://c895.org/donate) their important&nbsp;work.
+
+### C++
+
+C++ is a grandchild language of the B&nbsp;programming language and a superset
+of its parent language,&nbsp;C.
+
+#### C++20
+
+The release of the version of the C++ programming language whose features were
+finalized just prior to a pandemic, but which at release time, had still not
+been incorporated into an ISO&nbsp;standard.
+
+---
+## Caveats
+
+Where a specification omits implementation details&nbsp;– where a
+language’s behavior is undefined&nbsp;– it is the interpreter’s right or
+responsibility to map conditions to specific behavior where
+agnosticism&nbsp;fails. That is, unspecified conditions must result in
+implementation-defined&nbsp;behavior.
+
+For example, the HQ9+ specification implies the machine running it has
+infinite memory and that the length of input itself have asymptotic similarity
+to&nbsp;infinity. The devices on which this interpreter was tested had unclear
+limits, but in all cases, those limits were unambiguously finite, as are the
+lengths of primitive variable types in C and&nbsp;C++.
+
+Similarly, the specification does not detail how the accumulator’s value is
+accessed after its initialization at&nbsp;`0`. In an abundance of caution, and
+without drawing conclusions, this implementation is responsive to the
+ambiguity by tracking the accumulator’s value, but preventing accession
+to&nbsp;it. Further research must verify whether this is a safer alternative
+than writing to `/dev/null`, which may raise concerns about data&nbsp;loss.
