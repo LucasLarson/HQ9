@@ -27,17 +27,22 @@ excluded_files:
 
 # Any typos we should ignore?
 excluded_words:
+  - Biffle
   - LucasLarson
   - Mackup
   - typoci
   - uncommenting
 
   # Clang, GCC
+  - cbp
+  - cstring
   - dylib
   - fcaret
   - fdiagnostics
   - fdiagnostics-fixit-info
   - fdiagnostics-parseable-fixits
+  - fgnat
+  - fgnu
   - fident
   - fno
   - fshow
@@ -45,7 +50,9 @@ excluded_words:
   - ftime
   - ftrapv
   - gch
+  - ifndef
   - lai
+  - latomic
   - lstdc
   - pch
   - pthread
