@@ -1,21 +1,32 @@
-#!/bin/sh
-if which clang > /dev/null; then
-  clang main.c \
-    --verbose -std=c89 -ffreestanding -fno-builtin -O0 -g \
-    -fstandalone-debug -save-temps -save-stats -integrated-as \
-    -ftime-report -fshow-column -fshow-source-location \
-    -fcaret-diagnostics -fdiagnostics-fixit-info \
-    -fdiagnostics-parseable-fixits -fdiagnostics-print-source-range-info \
-    -fdiagnostics-show-option -o HQ9 && \
-  export PATH="$PWD:$PATH" && \
-  printf '\n\n\xe2\x9c\x85 bootstrap successfully completed\n\n' && \
-  printf '           now run `HQ9 H`,\n' && \
-  sleep 1.0 && \
-  printf '                or `HQ9 Q`,\n' && \
-  sleep 1.5 && \
-  printf '   or my favorite, `HQ9 9`!\n\n\n' && \
-  sleep 1.5 || \
-  printf '\n\n\xf0\x9f\x9a\xab bootstrap failed\n\n'
-else
-  prinf '\n\n\xe2\x9a\xa0\xef\xb8\x8f please install clang first\n\n'
+#!/bin/bash
+
+printf 'Welcome to %s\n' "$(basename "$0")"
+
+platform="$(uname)" && export platform
+printf 'platform set to %s\n' "$platform"
+printf 'beginning compilation...\n'
+
+if [[ Darwin = "$platform" ]]; then
+  clang++ -std=c++2a --verbose -Wall -Wextra -pedantic -g -integrated-as -lm \
+    -lstdc++ -O0 -pthread -save-stats -save-temps -v -fcaret-diagnostics \
+    -fdiagnostics-fixit-info -fdiagnostics-parseable-fixits \
+    -fdiagnostics-print-source-range-info -fdiagnostics-show-option \
+    -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
+    -ftime-report main.cpp beer.cpp -o "HQ9+"
+
+elif [[ "Linux" = "$platform" ]]; then
+  g++ --verbose -Wall -Wextra -pedantic -save-temps -v -fgnu-tm -lm -latomic \
+    -lstdc++ -g -fgnat-encodings=all main.cpp beer.cpp -o "HQ9+"
+
 fi
+
+printf '\n\nSetting the compiled file to run as an application...\n'
+chmod 755 HQ9+
+if [[ -x ./HQ9+ ]]; then
+  printf 'program verified as executable\n'
+else
+  return 1
+fi
+
+clear && clear
+./HQ9+
