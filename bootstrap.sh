@@ -1,4 +1,6 @@
 #!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
 
 printf 'Welcome to %s\n' "$(basename "$0")"
 
