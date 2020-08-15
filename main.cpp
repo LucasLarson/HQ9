@@ -6,7 +6,7 @@
 
 int main() {
     char input[999999];
-    int plus = 0;
+    unsigned long long plus = 0;
     std::cout << std::string(25, '\n');
     std::cout << "This is HQ9+" << std::endl;
     std::cout << "interpreted by C++20" << std::endl;
@@ -24,7 +24,7 @@ int main() {
             } else if (input[index] == '+') {
                 plus++;
 #if DEBUG
-                printf("%i\n", plus);
+                printf("%llu\n", plus);
 #endif  // DEBUG
             } else {
                 return 1;
