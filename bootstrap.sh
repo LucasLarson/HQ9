@@ -38,7 +38,7 @@ fi
 # succeed only if author’s name appears within 3 seconds of opening it
 printf 'Checking the executable\xe2\x80\x99s output...\n\n'
 
-if [[ "$(timeout 3 ./HQ9+ 2>&1)" =~ "$author" ]]; then
+if [[ "$(timeout 3 ./HQ9+ 2>&1)" =~ $author ]]; then
   printf '\xe2\x9c\x85 HQ9+ interpreter bootstrapping succeeded.\n\n'
   printf 'Activate it by entering: ./HQ9+\n'
   printf 'then press return.\n\n\n'
