@@ -38,5 +38,4 @@ else
   return 1
 fi
 
-clear && clear
 ./HQ9+
