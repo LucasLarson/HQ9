@@ -40,8 +40,9 @@ fi
 
 # test running the executable ourselves
 # succeed only if author’s name appears within 3 seconds of opening it
-application="$(echo "$(timeout 3 ./HQ9+)")"
-if [[ "$application" == *"$author"* ]]; then
+printf 'checking if $author exists in ./HQ9+’s first 3 seconds of output\n\n'
+
+if [[ "$(timeout 3 ./HQ9+ 2>&1)" =~ "$author" ]]; then
   printf '\n\nthe HQ9+ interpreter is now ready for use.\n'
   printf 'Activate it by entering \n\n'
   printf '    ./HQ9+\n\n'
