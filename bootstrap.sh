@@ -24,7 +24,7 @@ elif [[ "Linux" = "$platform" ]]; then
 
 fi
 
-printf '\n\nSetting the compiled file’s permissions...\n\n'
+printf '\n\nSetting the compiled file\xe2\x80\x99s permissions...\n\n'
 chmod 755 HQ9+
 
 # check if the executable is in fact executable
@@ -36,7 +36,7 @@ fi
 
 # test running the executable ourselves
 # succeed only if author’s name appears within 3 seconds of opening it
-printf 'Checking the executable’s output...\n\n'
+printf 'Checking the executable\xe2\x80\x99s output...\n\n'
 
 if [[ "$(timeout 3 ./HQ9+ 2>&1)" =~ "$author" ]]; then
   printf '\xe2\x9c\x85 HQ9+ interpreter bootstrapping succeeded.\n\n'
