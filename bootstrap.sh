@@ -24,23 +24,22 @@ elif [[ "Linux" = "$platform" ]]; then
 
 fi
 
-printf '\n\nSetting the compiled file to run as an application...\n'
+printf '\n\nSetting the compiled file’s permissions...\n\n'
 chmod 755 HQ9+
 
 # check if the executable is in fact executable
 if [[ -x ./HQ9+ ]]; then
-  printf 'program verified as executable...\n'
+  printf 'Compiled program verified as executable...\n\n'
 else
   return 1
 fi
 
 # test running the executable ourselves
 # succeed only if author’s name appears within 3 seconds of opening it
-printf 'checking if $author exists in ./HQ9+’s first 3 seconds of output\n\n'
+printf 'Checking the executable’s output...\n\n'
 
 if [[ "$(timeout 3 ./HQ9+ 2>&1)" =~ "$author" ]]; then
-  printf '\n\nthe HQ9+ interpreter is now ready for use.\n'
-  printf 'Activate it by entering \n\n'
-  printf '    ./HQ9+\n\n'
-  printf 'then press return\n\n\n'
+  printf '\xe2\x9c\x85 HQ9+ interpreter bootstrapping succeeded.\n\n'
+  printf 'Activate it by entering: ./HQ9+\n'
+  printf 'then press return.\n\n\n'
 fi
