@@ -9,6 +9,7 @@ platform="$(uname)" && export platform
 printf 'platform set to %s\n' "$platform"
 printf 'beginning compilation...\n'
 
+# create C++20 executable for macOS, if not then for Linux
 if [[ Darwin = "$platform" ]]; then
   clang++ -std=c++2a --verbose -Wall -Wextra -pedantic -g -integrated-as -lm \
     -lstdc++ -O0 -pthread -save-stats -save-temps -v -fcaret-diagnostics \
