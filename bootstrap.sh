@@ -30,8 +30,10 @@ fi
 clear
 printf '\n\nSetting the compiled file to run as an application...\n'
 chmod 755 HQ9+
+
+# check if the executable is in fact executable
 if [[ -x ./HQ9+ ]]; then
-  printf 'program verified as executable\n'
+  printf 'program verified as executable...\n'
 else
   return 1
 fi
