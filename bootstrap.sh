@@ -2,7 +2,8 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-printf 'Welcome to %s\n' "$(basename "$0")"
+author="Lucas Larson"
+printf 'Welcome to %s\n  a %s production\n\n' "$(basename "$0")" $author
 
 platform="$(uname)" && export platform
 printf 'platform set to %s\n' "$platform"
