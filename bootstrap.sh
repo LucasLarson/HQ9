@@ -22,8 +22,12 @@ elif [[ "Linux" = "$platform" ]]; then
   g++ --verbose -Wall -Wextra -pedantic -save-temps -v -fgnu-tm -lm -latomic \
     -lstdc++ -g -fgnat-encodings=all main.cpp beer.cpp -o "HQ9+"
 
+  # extra `clear` for Apline Linux
+  clear
 fi
 
+# clear the console before resuming user-friendlier output
+clear
 printf '\n\nSetting the compiled file to run as an application...\n'
 chmod 755 HQ9+
 if [[ -x ./HQ9+ ]]; then
