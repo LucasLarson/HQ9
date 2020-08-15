@@ -3,9 +3,11 @@
 #include <string>
 
 #include "beer.hpp"
+#define BUFFER_SIZE 999999
 
 int main() {
-    char input[999999];
+    char input[BUFFER_SIZE];
+    std::cin.width(BUFFER_SIZE);
     unsigned long long plus = 0;
     std::cout << std::string(25, '\n');
     std::cout << "This is HQ9+" << std::endl;
@@ -14,6 +16,7 @@ int main() {
     for (;;) {
         std::cout << "↪ ";
         std::cin >> input;
+        input[BUFFER_SIZE - 1] = '\0';
         for (unsigned long long index = 0; index < strlen(input); index++) {
             if (input[index] == 'H') {
                 printf("Hello, world!\n");
