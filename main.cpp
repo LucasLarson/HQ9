@@ -25,7 +25,7 @@ int main() {
                 plus++;
 #if DEBUG
                 printf("%i\n", plus);
-#endif /* DEBUG */
+#endif  // DEBUG
             } else {
                 return 1;
             }
