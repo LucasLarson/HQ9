@@ -14,7 +14,7 @@ int main() {
     for (;;) {
         std::cout << "↪ ";
         std::cin >> input;
-        for (unsigned int index = 0; index < strlen(input); index++) {
+        for (unsigned long long index = 0; index < strlen(input); index++) {
             if (input[index] == 'H') {
                 printf("Hello, world!\n");
             } else if (input[index] == 'Q') {
