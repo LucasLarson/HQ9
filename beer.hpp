@@ -3,4 +3,4 @@
 
 void beer();
 
-#endif  // BEER_HPP_
+#endif // BEER_HPP_
