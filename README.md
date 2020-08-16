@@ -13,9 +13,10 @@
 - [Caveats](#caveats)
 
 <!-- /TOC -->
+
 This is an interpreter of the entire HQ9+ programming language, implemented
-in&nbsp;C++20. The output of&nbsp;`9` is Rosetta&nbsp;Stone-compliant and
-takes a balanced approach to the recursion-versus-readability&nbsp;problem.
+in&nbsp;C++20. The output of&nbsp;`9` is Rosetta&nbsp;Stone-compliant and takes
+a balanced approach to the recursion-versus-readability&nbsp;problem.
 
 ## Build
 
@@ -56,13 +57,14 @@ clang++ -std=c++2a --verbose -v -Wall -Wextra -pedantic -g -lm -lstdc++ -O0 \
 ```
 
 5. try any combination of input specified in the&nbsp;language. My
-favorite’s&nbsp;`9`:
+   favorite’s&nbsp;`9`:
 
 ```shell
 9
 ```
 
 ---
+
 ## Background
 
 HQ9+ is a programming language written by Cliff L. Biffle in the
@@ -75,15 +77,15 @@ web.archive.org/web/20010511232301id_/cliff.biffle.org/esoterica/hq9plus.html
 
 ### C
 
-C, written by Dennis Ritchie and Ken Thompson in the&nbsp;mid‑1900s, is the
-more popular successor to the B&nbsp;programming&nbsp;language.
+C, written by Dennis Ritchie and Ken Thompson in the&nbsp;mid‑1900s, is the more
+popular successor to the B&nbsp;programming&nbsp;language.
 
 #### C89
 
 C89 is the functional equivalent of ANSI&nbsp;C and was published in the
-late&nbsp;1900s. In 2020, [v0.3.1 of this HQ9+
-interpreter](https://github.com/LucasLarson/HQ9/tree/v0.3.1) was published
-in&nbsp;C89.
+late&nbsp;1900s. In 2020,
+[v0.3.1 of this HQ9+ interpreter](https://github.com/LucasLarson/HQ9/tree/v0.3.1)
+was published in&nbsp;C89.
 
 ##### C89.5
 
@@ -103,23 +105,23 @@ finalized just prior to a pandemic, but which at release time, had still not
 been incorporated into an ISO&nbsp;standard.
 
 ---
+
 ## Caveats
 
-Where a specification omits implementation details&nbsp;– where a
-language’s behavior is undefined&nbsp;– it is the interpreter’s right or
-responsibility to map conditions to specific behavior where
-agnosticism&nbsp;fails. That is, unspecified conditions must result in
-implementation-defined&nbsp;behavior.
+Where a specification omits implementation details&nbsp;– where a language’s
+behavior is undefined&nbsp;– it is the interpreter’s right or responsibility to
+map conditions to specific behavior where agnosticism&nbsp;fails. That is,
+unspecified conditions must result in implementation-defined&nbsp;behavior.
 
-For example, the HQ9+ specification implies the machine running it has
-infinite memory and that the length of input itself have asymptotic similarity
+For example, the HQ9+ specification implies the machine running it has infinite
+memory and that the length of input itself have asymptotic similarity
 to&nbsp;infinity. The devices on which this interpreter was tested had unclear
 limits, but in all cases, those limits were unambiguously finite, as are the
 lengths of primitive variable types in C and&nbsp;C++.
 
 Similarly, the specification does not detail how the accumulator’s value is
 accessed after its initialization at&nbsp;`0`. In an abundance of caution, and
-without drawing conclusions, this implementation is responsive to the
-ambiguity by tracking the accumulator’s value, but preventing accession
-to&nbsp;it. Further research must verify whether this is a safer alternative
-than writing to `/dev/null`, which may raise concerns about data&nbsp;loss.
+without drawing conclusions, this implementation is responsive to the ambiguity
+by tracking the accumulator’s value, but preventing accession to&nbsp;it.
+Further research must verify whether this is a safer alternative than writing to
+`/dev/null`, which may raise concerns about data&nbsp;loss.
