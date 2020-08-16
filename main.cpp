@@ -3,7 +3,7 @@
 #include <string>
 
 #include "beer.hpp"
-#define BUFFER_SIZE 999999
+#define BUFFER_SIZE INT_MAX / UCHAR_MAX - USHRT_MAX
 
 int main() {
   char input[BUFFER_SIZE];
