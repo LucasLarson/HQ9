@@ -5,7 +5,13 @@ restylers:
   - "*"
 
   - name: prettier-markdown
-    include: ["--print-width 79"]
+    arguments:
+    - "--print-width 79"
+    - "--print-width"
+    - '79'
+    include:
+    - "**/*.md"
+    - "**/*.markdown"
 
   - name: clang-format
     arguments: ["-style='{IndentWidth:4}'"]
