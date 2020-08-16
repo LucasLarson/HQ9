@@ -15,7 +15,7 @@ restylers:
 
   - name: clang-format
     arguments:
-    - '-style="{IndentWidth:4}"'
+    - "-style='{IndentWidth:4}'"
     include:
     - "**/*.c"
     - "**/*.C"
