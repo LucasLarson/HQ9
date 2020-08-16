@@ -14,7 +14,8 @@ restylers:
     - "**/*.markdown"
 
   - name: clang-format
-    arguments: ["-style='{IndentWidth:4}'"]
+    arguments:
+    - '-style="{IndentWidth:4}"'
     include:
     - "**/*.c"
     - "**/*.C"
