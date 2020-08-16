@@ -3,8 +3,6 @@ enabled: true
 restylers:
   - "*"
   - name: prettier-markdown
-    arguments:
-    - "print-width"
-    - '79'
+    arguments: ["--print-width 79"]
   - name: clang-format
     arguments: ["-style={IndentWidth:4}"]
