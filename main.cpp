@@ -18,7 +18,7 @@ int main() {
         std::cin >> input;
         input[BUFFER_SIZE - 1] = '\0';
         for (unsigned long long index = 0; index < strnlen(input, BUFFER_SIZE);
-             index++) {
+                index++) {
             if (input[index] == 'H') {
                 printf("Hello, world!\n");
             } else if (input[index] == 'Q') {
