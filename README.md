@@ -13,8 +13,8 @@
 
 <!-- /TOC -->
 This is an interpreter of the entire HQ9+ programming language, implemented
-in&nbsp;C++20. The output of&nbsp;`9` is Rosetta&nbsp;Stone-compliant and
-takes a balanced approach to the recursion-versus-readability&nbsp;problem.
+in&nbsp;C++20. The output of&nbsp;`9` is Rosetta&nbsp;Stone-compliant and takes
+a balanced approach to the recursion-versus-readability&nbsp;problem.
 
 ## Build
 
@@ -102,21 +102,20 @@ been incorporated into an ISO&nbsp;standard.
 ---
 ## Implementation
 
-Where a specification omits implementation details&nbsp;– where a
-language’s behavior is undefined&nbsp;– it is the interpreter’s right or
-responsibility to map conditions to specific behavior where
-agnosticism&nbsp;fails. That is, unspecified conditions must result in
-implementation-defined&nbsp;behavior.
+Where a specification omits implementation details&nbsp;– where a language’s
+behavior is undefined&nbsp;– it is the interpreter’s right or responsibility to
+map conditions to specific behavior where agnosticism&nbsp;fails. That is,
+unspecified conditions must result in implementation-defined&nbsp;behavior.
 
-For example, the HQ9+ specification implies the machine running it has
-infinite memory and that the length of input itself have asymptotic similarity
+For example, the HQ9+ specification implies the machine running it has infinite
+memory and that the length of input itself have asymptotic similarity
 to&nbsp;infinity. The devices on which this interpreter was tested had unclear
 limits, but in all cases, those limits were unambiguously finite, as are the
 lengths of primitive variable types in C and&nbsp;C++.
 
 Similarly, the specification does not detail how the accumulator’s value is
 accessed after its initialization at&nbsp;`0`. In an abundance of caution, and
-without drawing conclusions, this implementation is responsive to the
-ambiguity by tracking the accumulator’s value, but preventing accession
-to&nbsp;it. Further research must verify whether this is a safer alternative
-than writing to `/dev/null`, which may raise concerns about data&nbsp;loss.
+without drawing conclusions, this implementation is responsive to the ambiguity
+by tracking the accumulator’s value, but preventing accession to&nbsp;it.
+Further research must verify whether this is a safer alternative than writing
+to&nbsp;`/dev/null`, which may raise concerns about data&nbsp;loss.
