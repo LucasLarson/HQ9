@@ -28,7 +28,7 @@ iOS&nbsp;14.0&nbsp;beta.
 
 ```shell
 git clone --verbose --recurse-submodules --progress \
- --branch main https://github.com/LucasLarson/HQ9
+  --branch main https://github.com/LucasLarson/HQ9
 ```
 
 2. move to the newly downloaded&nbsp;content
