@@ -97,7 +97,9 @@ of its parent language,&nbsp;C.
 
 The release of the version of the C++ programming language whose features were
 finalized just prior to a pandemic, but which at release time, had still not
-been incorporated into an ISO&nbsp;standard.
+been incorporated into an ISO&nbsp;standard. In 2020, [v1.0.0 of this HQ9+
+interpreter](https://github.com/LucasLarson/HQ9/tree/v1.0.0) was published
+in&nbsp;C++20.
 
 ---
 ## Implementation
