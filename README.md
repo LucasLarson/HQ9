@@ -4,13 +4,12 @@
 
 - [Build](#build)
 - [Background](#background)
-- [Implementation](#implementation)
   - [C](#c)
     - [C89](#c89)
       - [C89.5](#c895)
   - [C++](#c-1)
     - [C++20](#c20)
-- [Caveats](#caveats)
+- [Implementation](#implementation)
 
 <!-- /TOC -->
 This is an interpreter of the entire HQ9+ programming language, implemented
@@ -71,8 +70,6 @@ oldest extant copy of the specification:
 web.archive.org/web/20010511232301id_/cliff.biffle.org/esoterica/hq9plus.html
 -->
 
-## Implementation
-
 ### C
 
 C, written by Dennis Ritchie and Ken Thompson in the&nbsp;mid‑1900s, is the
@@ -103,7 +100,7 @@ finalized just prior to a pandemic, but which at release time, had still not
 been incorporated into an ISO&nbsp;standard.
 
 ---
-## Caveats
+## Implementation
 
 Where a specification omits implementation details&nbsp;– where a
 language’s behavior is undefined&nbsp;– it is the interpreter’s right or
