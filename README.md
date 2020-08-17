@@ -25,20 +25,20 @@ Clang&nbsp;12.0.0 on macOS&nbsp;11.0&nbsp;beta and GCC&nbsp;8.3.0 on
 Alpine&nbsp;Linux&nbsp;3.10.0 on iSH&nbsp;1.0&nbsp;(73) on
 iOS&nbsp;14.0&nbsp;beta.
 
-1. Open a terminal and get the&nbsp;code
+1.  Open a terminal and get the&nbsp;code
 
 ```shell
 git clone --verbose --recurse-submodules --progress \
  --branch main https://github.com/LucasLarson/HQ9
 ```
 
-2. move to the newly downloaded&nbsp;content
+2.  move to the newly downloaded&nbsp;content
 
 ```shell
 cd HQ9 || return 1
 ```
 
-3. build the executable for your&nbsp;machine
+3.  build the executable for your&nbsp;machine
 
 ```shell
 clang++ -std=c++2a --verbose -v -Wall -Wextra -pedantic -g -lm -lstdc++ -O0 \
@@ -49,13 +49,13 @@ clang++ -std=c++2a --verbose -v -Wall -Wextra -pedantic -g -lm -lstdc++ -O0 \
   $(find * -iname '*\.cpp') -o HQ9+ || ./bootstrap.sh
 ```
 
-4. run the&nbsp;executable
+4.  run the&nbsp;executable
 
 ```shell
 ./HQ9+
 ```
 
-5. try any combination of input specified in the&nbsp;language. My
+5.  try any combination of input specified in the&nbsp;language. My
 favorite’s&nbsp;`9`:
 
 ```shell
