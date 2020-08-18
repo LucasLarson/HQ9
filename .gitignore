@@ -127,7 +127,7 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 
-### CMake Patch ###
+## CMake Patch ##
 # External projects
 *-prefix/
 
@@ -221,7 +221,7 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-### JetBrains+all Patch ###
+## JetBrains+all Patch ##
 # Ignores the whole .idea folder and all .iml files
 # See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
 .idea/
@@ -287,10 +287,10 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 
-# GCC patch
+## GCC Patch ##
 /*.gcno
 
-### Xcode Patch ###
+## Xcode Patch ##
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
