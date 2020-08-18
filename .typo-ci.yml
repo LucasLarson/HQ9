@@ -28,6 +28,7 @@ excluded_files:
 # Any typos we should ignore?
 excluded_words:
   - Biffle
+  - Crashlytics
   - LucasLarson
   - Mackup
   - typoci
@@ -51,6 +52,7 @@ excluded_words:
   - ftime
   - ftrapv
   - gch
+  - gcno
   - ifndef
   - lai
   - latomic
@@ -73,9 +75,34 @@ excluded_words:
   # JetBrains
   - iml
   - ipr
+  - iws
+  - mpeltonen
+  - replstate
+  - sbt-idea
+
+  # macOS
+  - donotpresent
+  - icns
 
   # TextMate
   - tmbundle
+
+  # Xcode
+  - pbxproj
+  - pbxuser
+  - xccheckout
+  - xcscmblueprint
+  - xcsettings
+  - xcshareddata
+  - xcuserdata
+  - xcworkspacedata
+
+  # Zsh
+  - MichaelAquilina
+  - robbyrussell
+  - zdharma
+  - zshelldoc
+  - Zunit
 
 # Would you like filenames to also be spellchecked?
 spellcheck_filenames: true
