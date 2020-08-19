@@ -51,14 +51,14 @@ HQ9
 *.hex
 
 # Debug files
+*.bc
 *.dSYM/
-*.su
+*.i
 *.idb
 *.pdb
-*.bc
-*.i
 *.s
 *.stats
+*.su
 
 # Kernel module compile results
 *.mod*
