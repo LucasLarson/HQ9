@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -euo pipefail
 IFS=$'\n\t'
 
@@ -16,11 +16,11 @@ if [[ Darwin = "$platform" ]]; then
     -fdiagnostics-fixit-info -fdiagnostics-parseable-fixits \
     -fdiagnostics-print-source-range-info -fdiagnostics-show-option \
     -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
-    -ftime-report main.cpp beer.cpp -o "HQ9+"
+    -ftime-report main.cpp helloWorld.cpp beer.cpp -o "HQ9+"
 
 elif [[ "Linux" = "$platform" ]]; then
   g++ --verbose -Wall -Wextra -pedantic -save-temps -v -fgnu-tm -lm -latomic \
-    -lstdc++ -g -fgnat-encodings=all main.cpp beer.cpp -o "HQ9+"
+    -lstdc++ -g -fgnat-encodings=all main.cpp helloWorld.cpp beer.cpp -o "HQ9+"
 
 fi
 
