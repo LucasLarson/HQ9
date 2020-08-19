@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 
+#include "helloWorld.hpp"
 #include "beer.hpp"
 #define BUFFER_SIZE INT_MAX / UCHAR_MAX - USHRT_MAX
 
@@ -21,7 +22,7 @@ int main() {
         for (unsigned long long index = 0; index < strnlen(input, BUFFER_SIZE);
              index++) {
             if (input[index] == 'H') {
-                printf("Hello, world!\n");
+                helloWorld();
             } else if (input[index] == 'Q') {
                 printf("%s\n", input);
             } else if (input[index] == '9') {
