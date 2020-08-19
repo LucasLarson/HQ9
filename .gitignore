@@ -53,10 +53,14 @@ HQ9
 # Debug files
 *.bc
 *.dSYM/
+*.gkd
 *.i
 *.idb
+*.original
 *.pdb
+*.profile_estimate
 *.s
+*.statistics
 *.stats
 *.su
 
