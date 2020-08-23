@@ -38,7 +38,6 @@
 *.la
 *.lai
 *.lib
-*.lo
 *.so
 *.so.*
 
