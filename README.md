@@ -1,5 +1,6 @@
 # HQ9+
 
+[![CodeFactor](https://www.codefactor.io/repository/github/lucaslarson/hq9/badge)](https://www.codefactor.io/repository/github/lucaslarson/hq9)
 [![Codeac](https://static.codeac.io/badges/2-274529532.svg "Codeac.io")](https://app.codeac.io/github/LucasLarson/HQ9)
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
