@@ -38,6 +38,8 @@ excluded_words:
   - cbp
   - climits
   - cstring
+  - ctor
+  - dtor
   - dylib
   - fcaret
   - fdiagnostics
@@ -63,7 +65,16 @@ excluded_words:
   - slo
   - smod
   - strnlen
+  - unsequenced
+  - Wcall
+  - Wdefaulted
+  - Weffc
   - Wextra
+  - Wmemset
+  - Wno
+  - Woverriding
+  - Wreturn
+  - Wsizeof
 
   # Git
   - gmv # homemade alias to `git mv`
