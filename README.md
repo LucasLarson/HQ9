@@ -2,7 +2,7 @@
 
 [![CodeFactor](https://www.codefactor.io/repository/github/lucaslarson/hq9/badge)](https://www.codefactor.io/repository/github/lucaslarson/hq9)
 [![Codeac](https://static.codeac.io/badges/2-274529532.svg "Codeac.io")](https://app.codeac.io/github/LucasLarson/HQ9)
-[![C++ CI](https://github.com/LucasLarson/HQ9/workflows/C++%20CI/badge.svg)
+![C++ CI](https://github.com/LucasLarson/HQ9/workflows/C++%20CI/badge.svg)
 ![Lint Code Base](https://github.com/LucasLarson/HQ9/workflows/Lint%20Code%20Base/badge.svg)
 ![CodeQL](https://github.com/LucasLarson/HQ9/workflows/Code%20scanning%20-%20action/badge.svg)
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
