@@ -5,7 +5,7 @@
 [![C++ CI](https://github.com/LucasLarson/HQ9/workflows/C++%20CI/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"C%2B%2B+CI")
 [![Lint Code Base](https://github.com/LucasLarson/HQ9/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"Lint+Code+Base")
 [![CodeQL analysis](https://github.com/LucasLarson/HQ9/workflows/CodeQL%20analysis/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"CodeQL%20analysis")
-[![GPLP](https://img.shields.io/badge/license-GPLP-blue)](https://github.com/LucasLarson/HQ9/blob/main/LICENSE.md)
+[![GPLP](https://img.shields.io/badge/license-GPLP-blue "GNU General Public License for Pedants")](https://github.com/LucasLarson/HQ9/blob/main/LICENSE.md)
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Build](#build)
