@@ -10,54 +10,62 @@
 # https://gitignore.io/api/c,c++,cmake,git,jetbrains+all,macos,xcode,zsh
 
 
-### C ###
+### C, C++ ###
 # Prerequisites
 *.d
 
 # Object files
-*.o
-*.ko
-*.obj
 *.elf
+*.ko
+*.lo
+*.o
+*.obj
+*.slo
 
 # Linker output
+*.exp
 *.ilk
 *.map
-*.exp
 
 # Precompiled headers
 *.gch
 *.pch
 
 # Libraries
-*.lib
 *.a
-*.la
-*.lo
-
-# Shared objects
 *.dll
+*.dylib
+*.la
+*.lai
+*.lib
 *.so
 *.so.*
-*.dylib
+
+# Fortran module files
+*.mod
+*.smod
 
 # Executables
 HQ9
-*.exe
-*.out
+HQ9+
 *.app
-*.i*86
-*.x86_64
+*.exe
 *.hex
+*.i*86
+*.out
+*.x86_64
 
 # Debug files
 *.bc
+*.cbp
 *.dSYM/
 *.gkd
 *.i
 *.idb
+*.ii
 *.original
 *.pdb
+*.plist
 *.profile_estimate
 *.s
 *.statistics
@@ -65,57 +73,13 @@ HQ9
 *.su
 
 # Kernel module compile results
-*.mod*
-*.cmd
 .tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
+*.cmd
+*.mod*
 dkms.conf
-
-
-### C++ ###
-# Prerequisites
-*.d
-
-# Compiled object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled headers
-*.gch
-*.pch
-
-# Compiled dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-HQ9+
-*.exe
-*.out
-*.app
-
-# Debug files
-*.bc
-*.cbp
-*.ii
-*.s
-*.stats
-*.plist
+Mkfile.old
+Module.symvers
+modules.order
 
 
 ### CMake ###
