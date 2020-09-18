@@ -1,3 +1,4 @@
+---
 # .typo-ci.yml for Typo CI
 # @MikeRogers0
 # https://web.archive.org/web/20200610095834id_/typoci.com/documentation#header
@@ -8,7 +9,8 @@ dictionaries:
   - en_GB
   - fr
 
-# Any files/folders we should ignore?
+
+# Files and folders to ignore
 excluded_files:
   - "esperanto/*"
   - "vendor/**/*"
@@ -25,14 +27,31 @@ excluded_files:
   - "Gemfile.lock"
   - ".typo-ci.yml"
 
-# Any typos we should ignore?
+
+# Known spellings to ignore
 excluded_words:
   - Biffle
+  - calibreapp
   - Crashlytics
+  - csharp  # CodeQL Analysis
+  - ffs
+  - ibiqlik  # ibiqlik/action-yamllint
   - LucasLarson
   - Mackup
+  - omz  # ohmyzsh
+  - peter-evans  # peter-evans/create-pull-request
+  - rustup
+  - sobolevn  # sobolevn/misspell-fixer-action
   - typoci
   - uncommenting
+
+  # AsciiDoc
+  - adoc
+
+  # CSS
+  - webtv
+  - konqueror
+  - freebsd
 
   # Clang, GCC
   - cbp
@@ -77,9 +96,16 @@ excluded_words:
   - Wsizeof
 
   # Git
-  - gmv # homemade alias to `git mv`
+  - gmv  # homemade alias to `git mv`
+  - gunstage
+  - osxkeychain
+  - unstage
+  - unstagers
+  - unstaging
 
-  # GitHub funding
+  # GitHub
+  - gitsubmodule
+  - gomod
   - Liberapay
   - Otechie
 
@@ -95,6 +121,9 @@ excluded_words:
   - donotpresent
   - icns
 
+  # shell
+  - euo
+
   # TextMate
   - tmbundle
 
@@ -102,6 +131,7 @@ excluded_words:
   - pbxproj
   - pbxuser
   - xccheckout
+  - xcrun
   - xcscmblueprint
   - xcsettings
   - xcshareddata
@@ -109,11 +139,18 @@ excluded_words:
   - xcworkspacedata
 
   # Zsh
-  - MichaelAquilina
-  - robbyrussell
+  - MichaelAquilina  # https://gitignore.io/api/zsh
+  - robbyrussell  # https://gitignore.io/api/zsh
+  - venv
+  - zcalc
+  - zcompdump
   - zdharma
+  - zrecompile
+  - zsdoc
   - zshelldoc
   - Zunit
+  - zwc
 
-# Would you like filenames to also be spellchecked?
+
+# Filename spellchecking
 spellcheck_filenames: true
