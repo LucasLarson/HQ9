@@ -7,6 +7,7 @@
 [![CodeQL analysis](https://github.com/LucasLarson/HQ9/workflows/CodeQL%20analysis/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"CodeQL%20analysis")
 [![DeepCode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6Ikx1Y2FzTGFyc29uIiwicmVwbzEiOiJIUTkiLCJpbmNsdWRlTGludCI6ZmFsc2UsImF1dGhvcklkIjoxNTg0MiwiaWF0IjoxNTk5NzU0OTk0fQ.2vnmnRClDJONlco1vdiqOJt7gNYiqnT9kyWxFZ_vFuw)](https://www.deepcode.ai/app/gh/LucasLarson/HQ9/_/dashboard)
 [![GPLP](https://img.shields.io/badge/license-GPLP-blue "GNU General Public License for Pedants")](https://github.com/LucasLarson/HQ9/blob/main/LICENSE.md)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLucasLarson%2FHQ9.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FLucasLarson%2FHQ9?ref=badge_shield)
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Build](#build)
@@ -128,3 +129,7 @@ without drawing conclusions, this implementation is responsive to the ambiguity
 by tracking the accumulator’s value, but preventing accession to&nbsp;it.
 Further research must verify whether this is a safer alternative than writing
 to&nbsp;`/dev/null`, which may raise concerns about data&nbsp;loss.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLucasLarson%2FHQ9.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FLucasLarson%2FHQ9?ref=badge_large)
