@@ -3,8 +3,8 @@
 #include <iostream>
 #include <string>
 
-#include "helloWorld.hpp"
 #include "beer.hpp"
+#include "helloWorld.hpp"
 #define BUFFER_SIZE INT_MAX / UCHAR_MAX - USHRT_MAX
 
 int main() {
