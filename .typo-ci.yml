@@ -30,6 +30,7 @@ excluded_files:
 
 # Known spellings to ignore
 excluded_words:
+  - Affero  # GNU Affero Public License
   - Biffle
   - calibreapp
   - Crashlytics
@@ -74,6 +75,7 @@ excluded_words:
   - ftrapv
   - gch
   - gcno
+  - gkd
   - ifndef
   - lai
   - latomic
@@ -107,7 +109,9 @@ excluded_words:
   - gitsubmodule
   - gomod
   - Liberapay
+  - ossar
   - Otechie
+  - sarif  # OSSAR
 
   # JetBrains
   - iml
