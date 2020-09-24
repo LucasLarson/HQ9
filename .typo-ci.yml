@@ -179,4 +179,4 @@ excluded_words:
 
 
 # Filename spellchecking
-spellcheck_filenames: false
+spellcheck_filenames: true
