@@ -3,6 +3,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 author="Lucas Larson"
+program="HQ9+"
 printf 'Welcome to %s\n  a %s production\n\n' "$(basename "$0")" "$author"
 
 platform="$(uname)" && export platform
@@ -16,19 +17,21 @@ if [[ Darwin == "$platform" ]]; then
     -fdiagnostics-fixit-info -fdiagnostics-parseable-fixits \
     -fdiagnostics-print-source-range-info -fdiagnostics-show-option \
     -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
-    -ftime-report main.cpp helloWorld.cpp beer.cpp -o "HQ9+"
+    -ftime-report main.cpp helloWorld.cpp beer.cpp \
+    -o $program
 
 elif [[ Linux == "$platform" ]]; then
   g++ --verbose -Wall -Wextra -pedantic -save-temps -v -fgnu-tm -lm -latomic \
-    -lstdc++ -g -fgnat-encodings=all main.cpp helloWorld.cpp beer.cpp -o "HQ9+"
+    -lstdc++ -g -fgnat-encodings=all main.cpp helloWorld.cpp beer.cpp \
+    -o $program
 
 fi
 
 printf '\n\nSetting the compiled file\xe2\x80\x99s permissions...\n\n'
-chmod 755 HQ9+
+chmod 755 $program
 
 # check if the executable is in fact executable
-if [[ -x ./HQ9+ ]]; then
+if [[ -x ./$program ]]; then
   printf 'Compiled program verified as executable...\n\n'
 else
   return 1
@@ -38,8 +41,8 @@ fi
 # succeed only if author’s name appears within 3 seconds of opening it
 printf 'Checking the executable\xe2\x80\x99s output...\n\n'
 
-if [[ "$(timeout 3 ./HQ9+ 2>&1)" =~ $author ]]; then
-  printf '\xe2\x9c\x85 HQ9+ interpreter bootstrapping succeeded.\n\n'
-  printf 'Activate it by entering: ./HQ9+\n'
+if [[ "$(timeout 3 ./$program 2>&1)" =~ $author ]]; then
+  printf '\xe2\x9c\x85  %s interpreter bootstrapping succeeded.\n\n' "$program"
+  printf 'Activate it by entering: ./%s\n' "$program"
   printf 'then press return.\n\n\n'
 fi
