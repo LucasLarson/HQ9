@@ -18,7 +18,7 @@ if [[ Darwin == "$platform" ]]; then
     -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
     -ftime-report main.cpp helloWorld.cpp beer.cpp -o "HQ9+"
 
-elif [[ "Linux" == "$platform" ]]; then
+elif [[ Linux == "$platform" ]]; then
   g++ --verbose -Wall -Wextra -pedantic -save-temps -v -fgnu-tm -lm -latomic \
     -lstdc++ -g -fgnat-encodings=all main.cpp helloWorld.cpp beer.cpp -o "HQ9+"
 
