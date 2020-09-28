@@ -143,6 +143,18 @@ excluded_words:
   # TextMate
   - tmbundle
 
+  # Visual Studio
+  # https://github.com/github/gitignore/blob/218a9/VisualStudio.gitignore
+  - aps
+  - ipch
+  - ncb
+  - ogs  # [Ll]ogs/
+  - opensdf
+  - scc
+  - sdf
+  - svclog
+  - tli
+
   # Xcode
   - bcmp
   - bcopy
