@@ -37,9 +37,11 @@ excluded_words:
   - Crashlytics
   - csharp  # CodeQL Analysis
   - cyberciti  # cyberciti.biz
+  - esolangs
   - ffs
   - guillaumealgis  # guillaumealgis/XcodeWarningsAsXcconfig
   - ibiqlik  # ibiqlik/action-yamllint
+  - imgbotconfig  # dabutvin/Imgbot
   - jonreid  # jonreid/XcodeWarnings
   - LucasLarson
   - Mackup
@@ -111,7 +113,8 @@ excluded_words:
 
   # Git
   - gmv  # homemade alias to `git mv`
-  - gunstage
+  - gunstage  # `🔫  `git unstage` as a service https://git.io/gunstage
+  - lsi  # Jekyll’s latent semantic indexing
   - osxkeychain
   - unstage
   - unstagers
@@ -125,6 +128,11 @@ excluded_words:
   - Otechie
   - sarif  # OSSAR
 
+  # Gitpod
+  - bastet  # gitpod-io/gitpod
+  - runtimes
+  - tetris
+
   # JetBrains
   - iml
   - ipr
@@ -132,6 +140,9 @@ excluded_words:
   - mpeltonen
   - replstate
   - sbt-idea
+
+  # Linux
+  - nfs  # github/gitignore@4f7062e
 
   # macOS
   - donotpresent
