@@ -2,6 +2,7 @@
 
 [![CodeFactor](https://www.codefactor.io/repository/github/lucaslarson/hq9/badge)](https://www.codefactor.io/repository/github/lucaslarson/hq9)
 [![Gitpod: ready to code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/LucasLarson/HQ9)
+[![Google: ready to build](https://img.shields.io/badge/Google%20Cloud%20Shell-build-5391fe?logo=google-cloud&logoColor=fff)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/LucasLarson/HQ9)
 [![Codeac](https://static.codeac.io/badges/2-274529532.svg "Codeac.io")](https://app.codeac.io/github/LucasLarson/HQ9)
 [![C++ CI](https://github.com/LucasLarson/HQ9/workflows/C++%20CI/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"C%2B%2B+CI")
 [![Super-Linter](https://github.com/LucasLarson/HQ9/workflows/Super-Linter/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"Super-Linter")
