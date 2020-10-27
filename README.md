@@ -10,6 +10,7 @@
 [![CodeQL analysis](https://github.com/LucasLarson/HQ9/workflows/CodeQL%20analysis/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"CodeQL%20analysis")
 [![DeepCode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6Ikx1Y2FzTGFyc29uIiwicmVwbzEiOiJIUTkiLCJpbmNsdWRlTGludCI6ZmFsc2UsImF1dGhvcklkIjoxNTg0MiwiaWF0IjoxNTk5NzU0OTk0fQ.2vnmnRClDJONlco1vdiqOJt7gNYiqnT9kyWxFZ_vFuw)](https://www.deepcode.ai/app/gh/LucasLarson/HQ9/_/dashboard)
 [![GPLP](https://img.shields.io/badge/license-GPLP-blue "GNU General Public License for Pedants")](https://github.com/LucasLarson/HQ9/blob/main/LICENSE.md)
+
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Build](#build)
@@ -22,6 +23,7 @@
 - [Implementation](#implementation)
 
 <!-- /TOC -->
+
 This is an interpreter of the entire HQ9+ programming language, implemented
 in&nbsp;C++20. The output of&nbsp;`9` is Rosetta&nbsp;Stone-compliant and takes
 a balanced approach to the recursion-versus-readability&nbsp;problem.
@@ -65,13 +67,14 @@ clang++ -std=c++2a --verbose -v -Wall -Wextra -pedantic -g -lm -lstdc++ -O0 \
 ```
 
 5. try any combination of input specified in the&nbsp;language. My
-favorite’s&nbsp;`9`:
+   favorite’s&nbsp;`9`:
 
 ```shell
 9
 ```
 
 ---
+
 ## Background
 
 HQ9+ is a programming language written by Cliff L. Biffle in the
@@ -82,15 +85,15 @@ web.archive.org/web/20010511232301id_/cliff.biffle.org/esoterica/hq9plus.html
 
 ### C
 
-C, written by Dennis Ritchie and Ken Thompson in the&nbsp;mid‑1900s, is the
-more popular successor to the B&nbsp;programming&nbsp;language.
+C, written by Dennis Ritchie and Ken Thompson in the&nbsp;mid‑1900s, is the more
+popular successor to the B&nbsp;programming&nbsp;language.
 
 #### C89
 
 C89 is the functional equivalent of ANSI&nbsp;C and was published in the
-late&nbsp;1900s. In 2020, [v0.3.1 of this HQ9+
-interpreter](https://github.com/LucasLarson/HQ9/tree/v0.3.1) was published
-in&nbsp;C89.
+late&nbsp;1900s. In 2020,
+[v0.3.1 of this HQ9+ interpreter](https://github.com/LucasLarson/HQ9/tree/v0.3.1)
+was published in&nbsp;C89.
 
 ##### C89.5
 
@@ -107,11 +110,12 @@ of its parent language,&nbsp;C.
 
 The release of the version of the C++ programming language whose features were
 finalized just prior to a pandemic, but which at release time, had still not
-been incorporated into an ISO&nbsp;standard. In 2020, [v1.0.0 of this HQ9+
-interpreter](https://github.com/LucasLarson/HQ9/tree/v1.0.0) was published
-in&nbsp;C++20.
+been incorporated into an ISO&nbsp;standard. In 2020,
+[v1.0.0 of this HQ9+ interpreter](https://github.com/LucasLarson/HQ9/tree/v1.0.0)
+was published in&nbsp;C++20.
 
 ---
+
 ## Implementation
 
 Where a specification omits implementation details&nbsp;– where a language’s
