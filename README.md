@@ -9,7 +9,7 @@
 [![Super-Linter](https://github.com/LucasLarson/HQ9/workflows/Super-Linter/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"Super-Linter")
 [![CodeQL analysis](https://github.com/LucasLarson/HQ9/workflows/CodeQL%20analysis/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"CodeQL%20analysis")
 [![DeepCode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6Ikx1Y2FzTGFyc29uIiwicmVwbzEiOiJIUTkiLCJpbmNsdWRlTGludCI6ZmFsc2UsImF1dGhvcklkIjoxNTg0MiwiaWF0IjoxNTk5NzU0OTk0fQ.2vnmnRClDJONlco1vdiqOJt7gNYiqnT9kyWxFZ_vFuw)](https://www.deepcode.ai/app/gh/LucasLarson/HQ9/_/dashboard)
-[![GPLP](https://img.shields.io/badge/license-GPLP-blue "GNU General Public License for Pedants")](https://github.com/LucasLarson/HQ9/blob/main/LICENSE.md)
+[![GPLP](https://img.shields.io/badge/license-GPLP-blue "GNU General Public License for Pedants")](https://github.com/LucasLarson/HQ9/blob/main/license.adoc)
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
