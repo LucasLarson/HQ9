@@ -16,7 +16,7 @@ name: Super-Linter
 #############################
 on:
   push:
-    branches-ignore:  # [main]
+    branches-ignore: [main]
   pull_request:
     branches:  # [main]
 
