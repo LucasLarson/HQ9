@@ -21,15 +21,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      fail-fast: false
-      matrix:
-        # Override automatic language detection by changing the below list
-        # Supported options are ['csharp', 'cpp', 'go', 'java',
-        # 'javascript', 'python']
-        # https://git.io/overriding-automatic-language-detection
-        language: 'cpp'
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2.3.3
