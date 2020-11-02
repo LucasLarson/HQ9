@@ -18,23 +18,27 @@ if [[ Darwin == "$platform" ]]; then
     -fdiagnostics-print-source-range-info -fdiagnostics-show-option \
     -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
     -ftime-report main.cpp helloWorld.cpp beer.cpp \
-    -o $program
+    -o "$program"
 
 elif [[ Linux == "$platform" ]]; then
   g++ --verbose -Wall -Wextra -pedantic -save-temps -v -fgnu-tm -lm -latomic \
     -lstdc++ -g -fgnat-encodings=all main.cpp helloWorld.cpp beer.cpp \
-    -o $program
+    -o "$program"
 
 fi
 
 printf '\n\nSetting the compiled file\xe2\x80\x99s permissions...\n\n'
-chmod 755 $program
+chmod 755 "$program"
 
-# check if the executable is in fact executable
-if [[ -x ./$program ]]; then
+# check if the variable is still set
+# and the program is in fact executable
+if [[ -n $program && -x ./$program ]]; then
   printf 'Compiled program verified as executable...\n\n'
 else
-  return 1
+
+  # use the failed `if`’s return code
+  # https://github.com/ohmyzsh/ohmyzsh/pull/9238#discussion_r484806772
+  return $?
 fi
 
 # test running the executable ourselves

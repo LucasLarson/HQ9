@@ -37,7 +37,7 @@ excluded_words:
   - Crashlytics
   - csharp  # CodeQL Analysis
   - cyberciti  # cyberciti.biz
-  - esolangs
+  - esolang
   - ffs
   - guillaumealgis  # guillaumealgis/XcodeWarningsAsXcconfig
   - ibiqlik  # ibiqlik/action-yamllint
@@ -46,6 +46,7 @@ excluded_words:
   - LucasLarson
   - Mackup
   - nixCraft  # Vivek Gite, cyberciti.biz
+  - noninfringement  # GNU General Public License
   - omz  # ohmyzsh
   - peter-evans  # peter-evans/create-pull-request
   - rustup
@@ -56,6 +57,7 @@ excluded_words:
 
   # AsciiDoc
   - adoc
+  - toclevels
 
   # CSS
   - webtv
@@ -103,6 +105,7 @@ excluded_words:
   - unsequenced
   - Wcall
   - Wdefaulted
+  - webfont
   - Weffc
   - Wextra
   - Wmemset
@@ -111,11 +114,23 @@ excluded_words:
   - Wreturn
   - Wsizeof
 
+  # DeepSource
+  - gofmt
+  - isort
+  - standardjs
+  - standardrb
+
   # Git
+  - autocrlf
+  - gitconfig
   - gmv  # homemade alias to `git mv`
+  - gpgsign
   - gunstage  # `🔫  `git unstage` as a service https://git.io/gunstage
+  - lfs
   - lsi  # Jekyll’s latent semantic indexing
   - osxkeychain
+  - precompose
+  - textconv
   - unstage
   - unstagers
   - unstaging
@@ -133,6 +148,9 @@ excluded_words:
   - runtimes
   - tetris
 
+  # Google
+  - gtag
+
   # JetBrains
   - iml
   - ipr
@@ -147,6 +165,7 @@ excluded_words:
   # macOS
   - donotpresent
   - icns
+  - plutil
 
   # shell
   - euo
