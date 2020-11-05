@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update actions/checkout action to v2.3.4 [\#55](https://github.com/LucasLarson/HQ9/pull/55) ([renovate[bot]](https://github.com/apps/renovate))
 - run Super-Linter on `main` pushes [\#53](https://github.com/LucasLarson/HQ9/pull/53) ([LucasLarson](https://github.com/LucasLarson))
 - CodeQL repair [\#52](https://github.com/LucasLarson/HQ9/pull/52) ([LucasLarson](https://github.com/LucasLarson))
 - Update github/super-linter action to v3.13.5 [\#51](https://github.com/LucasLarson/HQ9/pull/51) ([renovate[bot]](https://github.com/apps/renovate))
