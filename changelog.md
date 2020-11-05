@@ -8,6 +8,7 @@
 
 - run Super-Linter on `main` pushes [\#53](https://github.com/LucasLarson/HQ9/pull/53) ([LucasLarson](https://github.com/LucasLarson))
 - CodeQL repair [\#52](https://github.com/LucasLarson/HQ9/pull/52) ([LucasLarson](https://github.com/LucasLarson))
+- Update github/super-linter action to v3.13.5 [\#51](https://github.com/LucasLarson/HQ9/pull/51) ([renovate[bot]](https://github.com/apps/renovate))
 - add Contributor Covenant Code of Conduct for Pedants [\#50](https://github.com/LucasLarson/HQ9/pull/50) ([LucasLarson](https://github.com/LucasLarson))
 - add changelog-generator workflow action [\#49](https://github.com/LucasLarson/HQ9/pull/49) ([LucasLarson](https://github.com/LucasLarson))
 - apply formatting, best practices to AsciiDoc document [\#48](https://github.com/LucasLarson/HQ9/pull/48) ([LucasLarson](https://github.com/LucasLarson))
