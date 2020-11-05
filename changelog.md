@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- CodeQL repair [\#52](https://github.com/LucasLarson/HQ9/pull/52) ([LucasLarson](https://github.com/LucasLarson))
 - add Contributor Covenant Code of Conduct for Pedants [\#50](https://github.com/LucasLarson/HQ9/pull/50) ([LucasLarson](https://github.com/LucasLarson))
 - add changelog-generator workflow action [\#49](https://github.com/LucasLarson/HQ9/pull/49) ([LucasLarson](https://github.com/LucasLarson))
 - apply formatting, best practices to AsciiDoc document [\#48](https://github.com/LucasLarson/HQ9/pull/48) ([LucasLarson](https://github.com/LucasLarson))
