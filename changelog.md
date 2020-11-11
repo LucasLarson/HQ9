@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update gitpod/workspace-full Docker digest to 02786c6 [\#61](https://github.com/LucasLarson/HQ9/pull/61) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/cache action to v2.1.3 [\#58](https://github.com/LucasLarson/HQ9/pull/58) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/checkout action to v2.3.4 [\#55](https://github.com/LucasLarson/HQ9/pull/55) ([renovate[bot]](https://github.com/apps/renovate))
 - run Super-Linter on `main` pushes [\#53](https://github.com/LucasLarson/HQ9/pull/53) ([LucasLarson](https://github.com/LucasLarson))
