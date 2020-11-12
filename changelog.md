@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update gitpod/workspace-full Docker digest to 3d10e55 [\#63](https://github.com/LucasLarson/HQ9/pull/63) ([renovate[bot]](https://github.com/apps/renovate))
 - remove unwieldy gaurav-nelson/github-action-markdown-link-check [\#62](https://github.com/LucasLarson/HQ9/pull/62) ([LucasLarson](https://github.com/LucasLarson))
 - Update gitpod/workspace-full Docker digest to 02786c6 [\#61](https://github.com/LucasLarson/HQ9/pull/61) ([renovate[bot]](https://github.com/apps/renovate))
 - Bump ibiqlik/action-yamllint from v2.0.0 to v3 [\#60](https://github.com/LucasLarson/HQ9/pull/60) ([dependabot[bot]](https://github.com/apps/dependabot))
