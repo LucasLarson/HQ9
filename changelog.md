@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update gitpod/workspace-full Docker digest to 13cccae [\#65](https://github.com/LucasLarson/HQ9/pull/65) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 4b76af1 [\#64](https://github.com/LucasLarson/HQ9/pull/64) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 3d10e55 [\#63](https://github.com/LucasLarson/HQ9/pull/63) ([renovate[bot]](https://github.com/apps/renovate))
 - remove unwieldy gaurav-nelson/github-action-markdown-link-check [\#62](https://github.com/LucasLarson/HQ9/pull/62) ([LucasLarson](https://github.com/LucasLarson))
@@ -50,7 +51,6 @@
 - Configure Renovate [\#30](https://github.com/LucasLarson/HQ9/pull/30) ([renovate[bot]](https://github.com/apps/renovate))
 - re-repair Docker sha256 digest string \(\#25\) [\#29](https://github.com/LucasLarson/HQ9/pull/29) ([LucasLarson](https://github.com/LucasLarson))
 - add mandatory `make` to Gitpod `cmake .` recipe to build [\#28](https://github.com/LucasLarson/HQ9/pull/28) ([LucasLarson](https://github.com/LucasLarson))
-- bump github/super-linter from v3.11.0 to v3.12.0 [\#27](https://github.com/LucasLarson/HQ9/pull/27) ([LucasLarson](https://github.com/LucasLarson))
 - remove `docker` URI scheme from Super-Linter configuration [\#26](https://github.com/LucasLarson/HQ9/pull/26) ([LucasLarson](https://github.com/LucasLarson))
 - repair Dockerfile digest string [\#25](https://github.com/LucasLarson/HQ9/pull/25) ([LucasLarson](https://github.com/LucasLarson))
 - add action to automagically repair JSON, spelling, image compression [\#24](https://github.com/LucasLarson/HQ9/pull/24) ([LucasLarson](https://github.com/LucasLarson))
@@ -92,7 +92,6 @@
 
 - rename Lint Code Base workflow to Super-Linter [\#18](https://github.com/LucasLarson/HQ9/pull/18) ([LucasLarson](https://github.com/LucasLarson))
 - add @GitHub issue templates [\#17](https://github.com/LucasLarson/HQ9/pull/17) ([LucasLarson](https://github.com/LucasLarson))
-- swap `strlen` for `strnlen` \(CWE-126\) [\#7](https://github.com/LucasLarson/HQ9/pull/7) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1.3](https://github.com/LucasLarson/HQ9/tree/v1.1.3) (2020-09-18)
 
@@ -111,14 +110,11 @@
 **Merged pull requests:**
 
 - add badges to the readme [\#12](https://github.com/LucasLarson/HQ9/pull/12) ([LucasLarson](https://github.com/LucasLarson))
+- mv `H` into its own class [\#11](https://github.com/LucasLarson/HQ9/pull/11) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1.1](https://github.com/LucasLarson/HQ9/tree/v1.1.1) (2020-08-19)
 
 [Full Changelog](https://github.com/LucasLarson/HQ9/compare/v1.1.0...v1.1.1)
-
-**Merged pull requests:**
-
-- mv `H` into its own class [\#11](https://github.com/LucasLarson/HQ9/pull/11) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1.0](https://github.com/LucasLarson/HQ9/tree/v1.1.0) (2020-08-19)
 
