@@ -110,11 +110,14 @@
 **Merged pull requests:**
 
 - add badges to the readme [\#12](https://github.com/LucasLarson/HQ9/pull/12) ([LucasLarson](https://github.com/LucasLarson))
-- mv `H` into its own class [\#11](https://github.com/LucasLarson/HQ9/pull/11) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1.1](https://github.com/LucasLarson/HQ9/tree/v1.1.1) (2020-08-19)
 
 [Full Changelog](https://github.com/LucasLarson/HQ9/compare/v1.1.0...v1.1.1)
+
+**Merged pull requests:**
+
+- mv `H` into its own class [\#11](https://github.com/LucasLarson/HQ9/pull/11) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1.0](https://github.com/LucasLarson/HQ9/tree/v1.1.0) (2020-08-19)
 
