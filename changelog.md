@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update peter-evans/create-pull-request action to v3.5.0 [\#66](https://github.com/LucasLarson/HQ9/pull/66) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 13cccae [\#65](https://github.com/LucasLarson/HQ9/pull/65) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 4b76af1 [\#64](https://github.com/LucasLarson/HQ9/pull/64) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 3d10e55 [\#63](https://github.com/LucasLarson/HQ9/pull/63) ([renovate[bot]](https://github.com/apps/renovate))
