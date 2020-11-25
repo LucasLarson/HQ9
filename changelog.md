@@ -7,6 +7,7 @@
 **Merged pull requests:**
 
 - Bump peter-evans/create-pull-request from v3.5.0 to v3.5.1 [\#72](https://github.com/LucasLarson/HQ9/pull/72) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update gitpod/workspace-full Docker digest to 2ce9107 [\#70](https://github.com/LucasLarson/HQ9/pull/70) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to fdfe4d2 [\#69](https://github.com/LucasLarson/HQ9/pull/69) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to af2f9dc [\#68](https://github.com/LucasLarson/HQ9/pull/68) ([renovate[bot]](https://github.com/apps/renovate))
 - Update peter-evans/create-pull-request action to v3.5.0 [\#66](https://github.com/LucasLarson/HQ9/pull/66) ([renovate[bot]](https://github.com/apps/renovate))
@@ -43,7 +44,6 @@
 **Merged pull requests:**
 
 - add `./HQ9+` to Gitpod build recipe [\#44](https://github.com/LucasLarson/HQ9/pull/44) ([LucasLarson](https://github.com/LucasLarson))
-- Restyle add more build/create/edit badges to readme [\#43](https://github.com/LucasLarson/HQ9/pull/43) ([restyled-io[bot]](https://github.com/apps/restyled-io))
 - Update github/super-linter action to v3.13.2 [\#40](https://github.com/LucasLarson/HQ9/pull/40) ([renovate[bot]](https://github.com/apps/renovate))
 - Update peter-evans/create-pull-request action to v3.4.1 [\#39](https://github.com/LucasLarson/HQ9/pull/39) ([renovate[bot]](https://github.com/apps/renovate))
 - Update ibiqlik/action-yamllint action to v2 [\#37](https://github.com/LucasLarson/HQ9/pull/37) ([renovate[bot]](https://github.com/apps/renovate))
