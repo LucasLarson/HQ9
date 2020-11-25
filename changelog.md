@@ -44,6 +44,7 @@
 - add `./HQ9+` to Gitpod build recipe [\#44](https://github.com/LucasLarson/HQ9/pull/44) ([LucasLarson](https://github.com/LucasLarson))
 - Update github/super-linter action to v3.13.2 [\#40](https://github.com/LucasLarson/HQ9/pull/40) ([renovate[bot]](https://github.com/apps/renovate))
 - Update peter-evans/create-pull-request action to v3.4.1 [\#39](https://github.com/LucasLarson/HQ9/pull/39) ([renovate[bot]](https://github.com/apps/renovate))
+- Update ibiqlik/action-yamllint action to v2 [\#37](https://github.com/LucasLarson/HQ9/pull/37) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 854b822 [\#36](https://github.com/LucasLarson/HQ9/pull/36) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gaurav-nelson/github-action-markdown-link-check action to v1.0.8 [\#35](https://github.com/LucasLarson/HQ9/pull/35) ([renovate[bot]](https://github.com/apps/renovate))
 - Bump github/super-linter from v3.13.0 to v3.13.1 [\#34](https://github.com/LucasLarson/HQ9/pull/34) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -60,6 +61,10 @@
 ## [v1.2.3](https://github.com/LucasLarson/HQ9/tree/v1.2.3) (2020-10-06)
 
 [Full Changelog](https://github.com/LucasLarson/HQ9/compare/v1.2.2...v1.2.3)
+
+**Merged pull requests:**
+
+- add automated @Gitpod-io setup for virtual installation [\#23](https://github.com/LucasLarson/HQ9/pull/23) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.2.2](https://github.com/LucasLarson/HQ9/tree/v1.2.2) (2020-09-29)
 
@@ -88,7 +93,6 @@
 
 **Merged pull requests:**
 
-- add automated @Gitpod-io setup for virtual installation [\#23](https://github.com/LucasLarson/HQ9/pull/23) ([LucasLarson](https://github.com/LucasLarson))
 - rename Lint Code Base workflow to Super-Linter [\#18](https://github.com/LucasLarson/HQ9/pull/18) ([LucasLarson](https://github.com/LucasLarson))
 - add @GitHub issue templates [\#17](https://github.com/LucasLarson/HQ9/pull/17) ([LucasLarson](https://github.com/LucasLarson))
 
