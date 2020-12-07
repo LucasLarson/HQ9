@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update gitpod/workspace-full Docker digest to 29afadc [\#77](https://github.com/LucasLarson/HQ9/pull/77) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 8514c48 [\#76](https://github.com/LucasLarson/HQ9/pull/76) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 3b30975 [\#75](https://github.com/LucasLarson/HQ9/pull/75) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to f0a686a [\#74](https://github.com/LucasLarson/HQ9/pull/74) ([renovate[bot]](https://github.com/apps/renovate))
@@ -100,7 +101,6 @@
 
 - rename Lint Code Base workflow to Super-Linter [\#18](https://github.com/LucasLarson/HQ9/pull/18) ([LucasLarson](https://github.com/LucasLarson))
 - add @GitHub issue templates [\#17](https://github.com/LucasLarson/HQ9/pull/17) ([LucasLarson](https://github.com/LucasLarson))
-- add more badges to readme [\#13](https://github.com/LucasLarson/HQ9/pull/13) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1.3](https://github.com/LucasLarson/HQ9/tree/v1.1.3) (2020-09-18)
 
@@ -110,6 +110,7 @@
 
 - add yamllint provider [\#16](https://github.com/LucasLarson/HQ9/pull/16) ([LucasLarson](https://github.com/LucasLarson))
 - add @DeepCodeAI badge to readme [\#14](https://github.com/LucasLarson/HQ9/pull/14) ([LucasLarson](https://github.com/LucasLarson))
+- add more badges to readme [\#13](https://github.com/LucasLarson/HQ9/pull/13) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1.2](https://github.com/LucasLarson/HQ9/tree/v1.1.2) (2020-08-26)
 
