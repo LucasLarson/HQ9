@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
-IFS=$'\n\t'
+IFS="$(printf '\n\t')"
 
 author="Lucas Larson"
 program="HQ9+"
