@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-set -Eeuo pipefail
-IFS="$(printf '\n\t')"
+#!/usr/bin/env sh
 
 author="Lucas Larson"
 program="HQ9+"
