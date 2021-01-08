@@ -7,7 +7,7 @@ program="HQ9+"
 printf 'Welcome to %s\n  a %s production\n\n' "$(basename "$0")" "${author}"
 
 platform="$(uname)" && export platform
-printf 'platform set to %s\n' "${platform}"
+printf 'platform set to %s...\n' "${platform}"
 printf 'beginning compilation...\n'
 
 # create C++20 executable for macOS, if not then for Linux
