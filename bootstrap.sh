@@ -11,7 +11,7 @@ printf 'Platform set to %s...\n' "${platform}"
 printf 'Beginning compilation...\n'
 
 # create C++20 executable for macOS, if not then for Linux
-if [[ "${platform}" == Darwin ]]; then
+if [ "${platform}" = Darwin ]; then
   clang++ -std=c++2a --verbose -Wall -Wextra -pedantic -g -integrated-as -lm \
     -lstdc++ -O0 -pthread -save-stats -save-temps -v -fcaret-diagnostics \
     -fdiagnostics-fixit-info -fdiagnostics-parseable-fixits \
@@ -20,7 +20,7 @@ if [[ "${platform}" == Darwin ]]; then
     -ftime-report main.cpp helloWorld.cpp beer.cpp \
     -o "${program}"
 
-elif [[ "${platform}" == Linux ]]; then
+elif [ "${platform}" = Linux ]; then
   g++ --verbose -Wall -Wextra -pedantic -save-temps -v -fgnu-tm -lm -latomic \
     -lstdc++ -g -fgnat-encodings=all main.cpp helloWorld.cpp beer.cpp \
     -o "${program}"
@@ -31,7 +31,7 @@ printf '\n\nSetting the compiled file\xe2\x80\x99s permissions...\n\n'
 chmod 755 "${program}"
 
 # check if the program is in fact executable
-if [[ -x "./${program}" ]]; then
+if [ -x "./${program}" ]; then
   printf 'Compiled program verified as executable...\n\n'
 else
 
