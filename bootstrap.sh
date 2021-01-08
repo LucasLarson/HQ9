@@ -30,9 +30,8 @@ fi
 printf '\n\nSetting the compiled file\xe2\x80\x99s permissions...\n\n'
 chmod 755 "${program}"
 
-# check if the variable is still set
-# and the program is in fact executable
-if [[ -n "${program}" && -x ./"${program}" ]]; then
+# check if the program is in fact executable
+if [[ -x ./"${program}" ]]; then
   printf 'Compiled program verified as executable...\n\n'
 else
 
