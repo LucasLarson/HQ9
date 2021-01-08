@@ -31,7 +31,7 @@ printf '\n\nSetting the compiled file\xe2\x80\x99s permissions...\n\n'
 chmod 755 "${program}"
 
 # check if the program is in fact executable
-if [[ -x ./"${program}" ]]; then
+if [[ -x "./${program}" ]]; then
   printf 'Compiled program verified as executable...\n\n'
 else
 
@@ -44,7 +44,7 @@ fi
 # succeed only if author’s name appears within 3 seconds of opening it
 printf 'Checking the executable\xe2\x80\x99s output...\n\n'
 
-if [[ "$(timeout 3 ./"${program}" 2>&1)" =~ ${author} ]]; then
+if [[ "$(timeout 3 "./${program}" 2>&1)" =~ ${author} ]]; then
   printf '\xe2\x9c\x85  %s interpreter bootstrapping succeeded.\n\n' "${program}"
   printf 'Activate it by entering: ./%s\n' "${program}"
   printf 'then press return.\n\n\n'
