@@ -11,7 +11,7 @@ printf 'Platform set to %s...\n' "${platform}"
 printf 'Beginning compilation...\n'
 
 # create C++20 executable for macOS, if not then for Linux
-if [[ Darwin == "${platform}" ]]; then
+if [[ "${platform}" == Darwin ]]; then
   clang++ -std=c++2a --verbose -Wall -Wextra -pedantic -g -integrated-as -lm \
     -lstdc++ -O0 -pthread -save-stats -save-temps -v -fcaret-diagnostics \
     -fdiagnostics-fixit-info -fdiagnostics-parseable-fixits \
@@ -20,7 +20,7 @@ if [[ Darwin == "${platform}" ]]; then
     -ftime-report main.cpp helloWorld.cpp beer.cpp \
     -o "${program}"
 
-elif [[ Linux == "${platform}" ]]; then
+elif [[ "${platform}" == Linux ]]; then
   g++ --verbose -Wall -Wextra -pedantic -save-temps -v -fgnu-tm -lm -latomic \
     -lstdc++ -g -fgnat-encodings=all main.cpp helloWorld.cpp beer.cpp \
     -o "${program}"
