@@ -6,7 +6,7 @@ author="Lucas Larson"
 program="HQ9+"
 printf 'Welcome to %s\n  a %s production\n\n' "$(basename "$0")" "${author}"
 
-platform="$(uname)" && export platform
+platform="$(uname)"
 printf 'Platform set to %s...\n' "${platform}"
 printf 'Beginning compilation...\n'
 
