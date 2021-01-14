@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update gitpod/workspace-full Docker digest to 9bb9abd [\#83](https://github.com/LucasLarson/HQ9/pull/83) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to cde417a [\#80](https://github.com/LucasLarson/HQ9/pull/80) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 30b6821 [\#78](https://github.com/LucasLarson/HQ9/pull/78) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 29afadc [\#77](https://github.com/LucasLarson/HQ9/pull/77) ([renovate[bot]](https://github.com/apps/renovate))
@@ -85,7 +86,6 @@
 **Merged pull requests:**
 
 - use a variable during bootstrap for the program name [\#22](https://github.com/LucasLarson/HQ9/pull/22) ([LucasLarson](https://github.com/LucasLarson))
-- Bump actions/checkout from v2.3.2 to v2.3.3 [\#21](https://github.com/LucasLarson/HQ9/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v1.2.0](https://github.com/LucasLarson/HQ9/tree/v1.2.0) (2020-09-24)
 
@@ -110,6 +110,7 @@
 
 **Merged pull requests:**
 
+- Bump actions/checkout from v2.3.2 to v2.3.3 [\#21](https://github.com/LucasLarson/HQ9/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
 - add yamllint provider [\#16](https://github.com/LucasLarson/HQ9/pull/16) ([LucasLarson](https://github.com/LucasLarson))
 - add @DeepCodeAI badge to readme [\#14](https://github.com/LucasLarson/HQ9/pull/14) ([LucasLarson](https://github.com/LucasLarson))
 - add more badges to readme [\#13](https://github.com/LucasLarson/HQ9/pull/13) ([LucasLarson](https://github.com/LucasLarson))
