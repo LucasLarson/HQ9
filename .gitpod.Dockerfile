@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full@sha256:9bb9abd378dc80ad26a3605ba584efa4de30f621fb24ee70b0b34b5852c7b938
+FROM gitpod/workspace-full@sha256:eece56ac7cd035b11eaa2f44808f31245ca4b4d11470ff3d4530b7c024891275
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
