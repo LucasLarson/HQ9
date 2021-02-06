@@ -27,7 +27,7 @@ elif [ "${platform}" = Linux ]; then
 
 fi
 
-printf '\n\nSetting the compiled file\xe2\x80\x99s permissions...\n\n'
+printf '\n\nSetting the compiled file%ss permissions...\n\n' "’"
 chmod 755 "${program}"
 
 # check if the program is in fact executable
@@ -42,12 +42,12 @@ fi
 
 # test running the executable ourselves
 # succeed only if author’s name appears within 3 seconds of opening it
-printf 'Checking the executable\xe2\x80\x99s output...\n\n'
+printf 'Checking the executable%ss output...\n\n' "’"
 
 # portable substring search of the program’s output
 # https://stackoverflow.com/a/21115356
 if timeout 3 "./${program}" 2>&1 | grep -q "${author}"; then
-  printf '\xe2\x9c\x85  %s interpreter bootstrapping succeeded.\n\n' "${program}"
+  printf '%s  %s interpreter bootstrapping succeeded.\n\n' "✅" "${program}"
   printf 'Activate it by entering: ./%s\n' "${program}"
   printf 'then press return.\n\n\n'
 fi
