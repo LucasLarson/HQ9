@@ -6,7 +6,9 @@ printf 'Welcome to %s\n  a %s production\n\n' "$(basename "$0")" "${author}"
 
 platform="$(uname)"
 printf 'Platform set to %s...\n' "${platform}"
-printf 'Beginning compilation...\n'
+sleep 1
+printf 'Beginning compilation...\n\n'
+sleep 2
 
 # create C++20 executable for macOS, if not then for Linux
 if [ "${platform}" = Darwin ]; then
