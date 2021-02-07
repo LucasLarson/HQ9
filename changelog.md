@@ -4,8 +4,14 @@
 
 [Full Changelog](https://github.com/LucasLarson/HQ9/compare/v1.2.4...HEAD)
 
+**Closed issues:**
+
+- Action Required: Fix Renovate Configuration [\#84](https://github.com/LucasLarson/HQ9/issues/84)
+
 **Merged pull requests:**
 
+- Update gitpod/workspace-full Docker digest to eece56a [\#85](https://github.com/LucasLarson/HQ9/pull/85) ([renovate[bot]](https://github.com/apps/renovate))
+- Update gitpod/workspace-full Docker digest to 9bb9abd [\#83](https://github.com/LucasLarson/HQ9/pull/83) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to cde417a [\#80](https://github.com/LucasLarson/HQ9/pull/80) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 30b6821 [\#78](https://github.com/LucasLarson/HQ9/pull/78) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 29afadc [\#77](https://github.com/LucasLarson/HQ9/pull/77) ([renovate[bot]](https://github.com/apps/renovate))
