@@ -11,6 +11,7 @@
 
 **Merged pull requests:**
 
+- Update gitpod/workspace-full Docker digest to 0e46af5 [\#87](https://github.com/LucasLarson/HQ9/pull/87) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to eece56a [\#85](https://github.com/LucasLarson/HQ9/pull/85) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 9bb9abd [\#83](https://github.com/LucasLarson/HQ9/pull/83) ([renovate[bot]](https://github.com/apps/renovate))
 - repair bootstrap and make standards-, best-practices-, compliant \(\#79\) [\#81](https://github.com/LucasLarson/HQ9/pull/81) ([LucasLarson](https://github.com/LucasLarson))
@@ -121,7 +122,6 @@
 - add yamllint provider [\#16](https://github.com/LucasLarson/HQ9/pull/16) ([LucasLarson](https://github.com/LucasLarson))
 - add @DeepCodeAI badge to readme [\#14](https://github.com/LucasLarson/HQ9/pull/14) ([LucasLarson](https://github.com/LucasLarson))
 - add more badges to readme [\#13](https://github.com/LucasLarson/HQ9/pull/13) ([LucasLarson](https://github.com/LucasLarson))
-- mv `H` into its own class [\#11](https://github.com/LucasLarson/HQ9/pull/11) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1.2](https://github.com/LucasLarson/HQ9/tree/v1.1.2) (2020-08-26)
 
@@ -134,6 +134,10 @@
 ## [v1.1.1](https://github.com/LucasLarson/HQ9/tree/v1.1.1) (2020-08-19)
 
 [Full Changelog](https://github.com/LucasLarson/HQ9/compare/v1.1.0...v1.1.1)
+
+**Merged pull requests:**
+
+- mv `H` into its own class [\#11](https://github.com/LucasLarson/HQ9/pull/11) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1.0](https://github.com/LucasLarson/HQ9/tree/v1.1.0) (2020-08-19)
 
