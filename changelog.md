@@ -11,6 +11,7 @@
 
 **Merged pull requests:**
 
+- Update gitpod/workspace-full Docker digest to bb020f3 [\#90](https://github.com/LucasLarson/HQ9/pull/90) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 68108e2 [\#88](https://github.com/LucasLarson/HQ9/pull/88) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 0e46af5 [\#87](https://github.com/LucasLarson/HQ9/pull/87) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to eece56a [\#85](https://github.com/LucasLarson/HQ9/pull/85) ([renovate[bot]](https://github.com/apps/renovate))
