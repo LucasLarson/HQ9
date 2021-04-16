@@ -19,7 +19,7 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v2.3.3
+      - uses: actions/checkout@v2.3.4
       - name: build
         run: |
           clang++ -std=c++2a --verbose -Wall -Wextra -pedantic -g \
@@ -28,4 +28,4 @@ jobs:
           -fdiagnostics-parseable-fixits -fshow-column -fstandalone-debug \
           -fdiagnostics-print-source-range-info -fdiagnostics-show-option \
           -fshow-source-location -ftime-report \
-          $(find * -iname '*\.cpp') -o HQ9+
+          ./*.cpp -o HQ9+

@@ -8,26 +8,22 @@ on:
     # The branches below must be a subset of the branches above
     branches:
   schedule:
-    # Tuesday at 9pm UTC
+    #        ┌────────── minute (0 - 59)
+    #        │  ┌─────── hour (0 - 23)
+    #        │  │ ┌───── day of the month (1 - 31)
+    #        │  │ │ ┌─── month (1 - 12 or JAN-DEC)
+    #        │  │ │ │ ┌─ day of the week (0 - 6 or SUN-SAT)
     - cron: '0 21 * * 2'
+    # Tuesday at 9pm UTC
 
 jobs:
   CodeQL-Build:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      fail-fast: false
-      matrix:
-        # Override automatic language detection by changing the below list
-        # Supported options are ['csharp', 'cpp', 'go', 'java',
-        # 'javascript', 'python']
-        # https://git.io/overriding-automatic-language-detection
-        language: 'cpp'
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2.3.3
+        uses: actions/checkout@v2.3.4
         with:
           # We must fetch at least the immediate parents so that if this is
           # a pull request then we can checkout the head.

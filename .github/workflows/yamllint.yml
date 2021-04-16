@@ -2,7 +2,6 @@
 name: YAML Lint
 on:
   push:
-  pull_request:
 
 jobs:
 
@@ -11,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.3
+        uses: actions/checkout@v2
       - name: YAML Lint
-        uses: ibiqlik/action-yamllint@v2.0.0
+        uses: ibiqlik/action-yamllint@v3
         with:
           strict: true
           config_data: |

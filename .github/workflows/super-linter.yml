@@ -16,9 +16,6 @@ name: Super-Linter
 #############################
 on:
   push:
-    branches-ignore: [main]
-  pull_request:
-    branches:  # [main]
 
 ###############
 # Set the Job #
@@ -38,13 +35,13 @@ jobs:
       # Checkout the code base #
       ##########################
       - name: Checkout Code
-        uses: actions/checkout@v2.3.3
+        uses: actions/checkout@v2
 
       ################################
       # Run Linter against code base #
       ################################
       - name: Lint Code Base
-        uses: github/super-linter@v3.13.2
+        uses: github/super-linter@v3
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
