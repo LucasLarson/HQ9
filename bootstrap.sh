@@ -17,12 +17,12 @@ if [ "${platform}" = Darwin ]; then
     -fdiagnostics-fixit-info -fdiagnostics-parseable-fixits \
     -fdiagnostics-print-source-range-info -fdiagnostics-show-option \
     -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
-    -ftime-report main.cpp helloWorld.cpp beer.cpp \
+    -ftime-report ./*.cpp \
     -o "${program}"
 
 elif [ "${platform}" = Linux ]; then
   g++ --verbose -Wall -Wextra -pedantic -save-temps -v -fgnu-tm -lm -latomic \
-    -lstdc++ -g -fgnat-encodings=all main.cpp helloWorld.cpp beer.cpp \
+    -lstdc++ -g -fgnat-encodings=all ./*.cpp \
     -o "${program}"
 
 fi

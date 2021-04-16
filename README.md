@@ -57,7 +57,7 @@ clang++ -std=c++2a --verbose -v -Wall -Wextra -pedantic -g -lm -lstdc++ -O0 \
   -fdiagnostics-print-source-range-info -fdiagnostics-show-option -fident \
   -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
   -ftime-report -ftrapv -integrated-as -pthread -save-stats -save-temps \
-  $(find * -iname '*\.cpp') -o HQ9+ || ./bootstrap.sh
+  ./*.cpp -o HQ9+ || ./bootstrap.sh
 ```
 
 4. run the&nbsp;executable
