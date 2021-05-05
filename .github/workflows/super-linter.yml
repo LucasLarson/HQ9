@@ -36,6 +36,9 @@ jobs:
       ##########################
       - name: Checkout Code
         uses: actions/checkout@v2
+        with:
+          # linter requires full repository history
+          fetch-depth: 0
 
       ################################
       # Run Linter against code base #
