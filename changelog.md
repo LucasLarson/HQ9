@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/LucasLarson/HQ9/compare/v1.2.4...HEAD)
 
+**Implemented enhancements:**
+
+- ignore semver minor @Dependabot updates  [\#101](https://github.com/LucasLarson/HQ9/pull/101) ([LucasLarson](https://github.com/LucasLarson))
+
 **Closed issues:**
 
 - Action Required: Fix Renovate Configuration [\#84](https://github.com/LucasLarson/HQ9/issues/84)
