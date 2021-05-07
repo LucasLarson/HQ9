@@ -10,6 +10,7 @@
 
 **Closed issues:**
 
+- `actions/setup-ruby` is deprecated [\#97](https://github.com/LucasLarson/HQ9/issues/97)
 - Action Required: Fix Renovate Configuration [\#84](https://github.com/LucasLarson/HQ9/issues/84)
 - the bootstrap’s syntax isn’t as standards- or best practices-compliant as it could be [\#79](https://github.com/LucasLarson/HQ9/issues/79)
 
