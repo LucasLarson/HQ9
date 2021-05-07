@@ -3,96 +3,157 @@
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
 # https://git.io/help-dependabot-configuration
+# https://github.com/dependabot/dependabot-core/issues/2219#issuecomment-829501674
 
 version: 2
 updates:
 
-  # Maintain dependencies for Bundler
+  # Bundler
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for Cargo
+  # Cargo
   - package-ecosystem: "cargo"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for Composer
+  # Composer
   - package-ecosystem: "composer"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for Docker
+  # Docker
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for Elm
+  # Elm
   - package-ecosystem: "elm"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for git submodule
+  # git submodules
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for GitHub Actions
+  # GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for Go modules
+  # Go modules
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for Gradle
+  # Gradle
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for Maven
+  # Maven
   - package-ecosystem: "maven"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for Mix
+  # Mix
   - package-ecosystem: "mix"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for npm
+  # npm
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for NuGet
+  # NuGet
   - package-ecosystem: "nuget"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for pip
+  # pip
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
 
-  # Maintain dependencies for Terraform
+  # Terraform
   - package-ecosystem: "terraform"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # ignore patch updates for all dependencies
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]

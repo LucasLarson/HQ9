@@ -4,13 +4,19 @@
 
 [Full Changelog](https://github.com/LucasLarson/HQ9/compare/v1.2.4...HEAD)
 
+**Implemented enhancements:**
+
+- ignore semver minor @Dependabot updates  [\#101](https://github.com/LucasLarson/HQ9/pull/101) ([LucasLarson](https://github.com/LucasLarson))
+
 **Closed issues:**
 
+- `actions/setup-ruby` is deprecated [\#97](https://github.com/LucasLarson/HQ9/issues/97)
 - Action Required: Fix Renovate Configuration [\#84](https://github.com/LucasLarson/HQ9/issues/84)
 - the bootstrap’s syntax isn’t as standards- or best practices-compliant as it could be [\#79](https://github.com/LucasLarson/HQ9/issues/79)
 
 **Merged pull requests:**
 
+- remove inactive @​TypoCI configuration [\#99](https://github.com/LucasLarson/HQ9/pull/99) ([LucasLarson](https://github.com/LucasLarson))
 - Update gitpod/workspace-full Docker digest to 3d03682 [\#95](https://github.com/LucasLarson/HQ9/pull/95) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 07a1d91 [\#94](https://github.com/LucasLarson/HQ9/pull/94) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 3b93442 [\#93](https://github.com/LucasLarson/HQ9/pull/93) ([renovate[bot]](https://github.com/apps/renovate))

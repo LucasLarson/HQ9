@@ -37,7 +37,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
         with:
-          # full Git history required
+          # linter requires full repository history
           # https://github.com/github/super-linter/tree/786e705#example-connecting-github-action-workflow
           fetch-depth: 0
 
