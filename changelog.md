@@ -8,6 +8,10 @@
 
 - ignore semver minor @Dependabot updates  [\#101](https://github.com/LucasLarson/HQ9/pull/101) ([LucasLarson](https://github.com/LucasLarson))
 
+**Fixed bugs:**
+
+- upgrade CodeQL analysis to better emulate template [\#106](https://github.com/LucasLarson/HQ9/pull/106) ([LucasLarson](https://github.com/LucasLarson))
+
 **Closed issues:**
 
 - `actions/setup-ruby` is deprecated [\#97](https://github.com/LucasLarson/HQ9/issues/97)
