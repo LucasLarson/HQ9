@@ -20,6 +20,7 @@
 
 **Merged pull requests:**
 
+- Update gitpod/workspace-full Docker digest to 39a9080 [\#109](https://github.com/LucasLarson/HQ9/pull/109) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v4 [\#107](https://github.com/LucasLarson/HQ9/pull/107) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 42181fe [\#102](https://github.com/LucasLarson/HQ9/pull/102) ([renovate[bot]](https://github.com/apps/renovate))
 - remove inactive @​TypoCI configuration [\#99](https://github.com/LucasLarson/HQ9/pull/99) ([LucasLarson](https://github.com/LucasLarson))
