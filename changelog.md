@@ -10,6 +10,8 @@
 
 **Fixed bugs:**
 
+- @DeepCodeAI’s badge no longer works [\#116](https://github.com/LucasLarson/HQ9/issues/116)
+- remove @DeepCodeAI badge, link to results \(fix \#116\) [\#117](https://github.com/LucasLarson/HQ9/pull/117) ([LucasLarson](https://github.com/LucasLarson))
 - upgrade CodeQL analysis to better emulate template [\#106](https://github.com/LucasLarson/HQ9/pull/106) ([LucasLarson](https://github.com/LucasLarson))
 
 **Closed issues:**
