@@ -5,8 +5,8 @@ void beer() {
     int i = 99;
 #define wall " of beer on the wall"
     while (i > 1) {
-        printf("%d bottle%c%s,\n", i, i == 1 ? '\0' : 's', wall);
-        printf("%d bottle%c of beer,\n", i, i == 1 ? '\0' : 's');
+        printf("%d bottles%s,\n", i, wall);
+        printf("%d bottles of beer,\n", i);
         printf("take 1 down, pass it around,\n");
         printf("%d bottle%c%s.\n\n", i - 1, (i - 1) == 1 ? '\0' : 's', wall);
         i--;
