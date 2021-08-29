@@ -8,7 +8,7 @@ void beer() {
         printf("%d bottles%s,\n", i, wall);
         printf("%d bottles of beer,\n", i);
         printf("take 1 down, pass it around,\n");
-        printf("%d bottle%c%s.\n\n", i - 1, (i - 1) == 1 ? '\0' : 's', wall);
+        printf("%d bottle%c%s.\n\n", i - 1, i == 2 ? '\0' : 's', wall);
         i--;
     }
     printf("1 bottle%s,\n1 bottle of beer,\n", wall);
