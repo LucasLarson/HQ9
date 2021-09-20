@@ -29,8 +29,7 @@ int main() {
     std::cout << "↪ ";
     std::cin >> input;
     input[BUFFER_SIZE - 1] = '\0';
-    for (u_int64_t index = 0; index < strnlen(input, BUFFER_SIZE);
-         index++) {
+    for (u_int64_t index = 0; index < strnlen(input, BUFFER_SIZE); index++) {
       if (input[index] == 'H') {
         helloWorld();
       } else if (input[index] == 'Q') {
