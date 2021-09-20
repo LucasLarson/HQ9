@@ -40,7 +40,7 @@ int main() {
         plus++;
 #if DEBUG
         printf("%llu\n", plus);
-#endif  // DEBUG
+#endif // DEBUG
       } else {
         return 1;
       }
