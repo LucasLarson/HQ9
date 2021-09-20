@@ -20,7 +20,7 @@
 int main() {
   char input[BUFFER_SIZE];
   std::cin.width(BUFFER_SIZE);
-  unsigned long long plus = 0;
+  u_int64_t plus = 0;
   std::cout << std::string(25, '\n');
   std::cout << "This is HQ9+" << std::endl;
   std::cout << "interpreted by C++20" << std::endl;
@@ -29,7 +29,7 @@ int main() {
     std::cout << "↪ ";
     std::cin >> input;
     input[BUFFER_SIZE - 1] = '\0';
-    for (unsigned long long index = 0; index < strnlen(input, BUFFER_SIZE);
+    for (u_int64_t index = 0; index < strnlen(input, BUFFER_SIZE);
          index++) {
       if (input[index] == 'H') {
         helloWorld();
