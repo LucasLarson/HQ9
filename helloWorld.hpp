@@ -8,9 +8,9 @@
 
 */
 
-#ifndef HELLO_WORLD_HPP_
-#define HELLO_WORLD_HPP_
+#ifndef HELLOWORLD_HPP_
+#define HELLOWORLD_HPP_
 
 void helloWorld();
 
-#endif // HELLO_WORLD_HPP_
+#endif // HELLOWORLD_HPP_
