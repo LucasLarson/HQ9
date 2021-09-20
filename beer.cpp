@@ -12,13 +12,11 @@
 #include <iostream>
 
 void beer() {
-
   int i = 99;
 
 #define wall " of beer on the wall"
 
   while (i > 1) {
-
     // `i` bottles of beer on the wall
     // where `i` is 2 to 99
     printf("%d bottles%s,\n", i, wall);
