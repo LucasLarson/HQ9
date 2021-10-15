@@ -22,6 +22,7 @@
 
 **Merged pull requests:**
 
+- move actions/checkout from v2.3.4 to v2 [\#125](https://github.com/LucasLarson/HQ9/pull/125) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 0e4ea11 [\#124](https://github.com/LucasLarson/HQ9/pull/124) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full Docker digest to 1303c8a [\#123](https://github.com/LucasLarson/HQ9/pull/123) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full Docker digest to `c3c678c` [\#122](https://github.com/LucasLarson/HQ9/pull/122) ([renovate[bot]](https://github.com/apps/renovate))
