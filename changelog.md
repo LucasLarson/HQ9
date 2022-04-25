@@ -22,6 +22,7 @@
 
 **Merged pull requests:**
 
+- bump github/codeql-action action from v1 to v2 [\#135](https://github.com/LucasLarson/HQ9/pull/135) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `b484ad4` to `78ba498` [\#134](https://github.com/LucasLarson/HQ9/pull/134) ([renovate[bot]](https://github.com/apps/renovate))
 - bump `peter-evans/create-pull-request` action from v3 to v4 [\#133](https://github.com/LucasLarson/HQ9/pull/133) ([renovate[bot]](https://github.com/apps/renovate))
 - bump `actions/cache` action from v2 to v3 [\#132](https://github.com/LucasLarson/HQ9/pull/132) ([renovate[bot]](https://github.com/apps/renovate))
