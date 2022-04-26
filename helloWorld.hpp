@@ -4,7 +4,7 @@
 
   Lucas Larson
   copyright GPL v3.0+
-  https://git.io/HQ9+
+  https://github.com/LucasLarson/HQ9
 
 */
 
