@@ -10,6 +10,7 @@
 
 **Fixed bugs:**
 
+- `git.io` deprecation [\#136](https://github.com/LucasLarson/HQ9/issues/136)
 - @DeepCodeAI’s badge no longer works [\#116](https://github.com/LucasLarson/HQ9/issues/116)
 - remove @DeepCodeAI badge, link to results \(fix \#116\) [\#117](https://github.com/LucasLarson/HQ9/pull/117) ([LucasLarson](https://github.com/LucasLarson))
 - upgrade CodeQL analysis to better emulate template [\#106](https://github.com/LucasLarson/HQ9/pull/106) ([LucasLarson](https://github.com/LucasLarson))
@@ -22,6 +23,7 @@
 
 **Merged pull requests:**
 
+- remove `git.io` links \(fix \#136\) [\#137](https://github.com/LucasLarson/HQ9/pull/137) ([LucasLarson](https://github.com/LucasLarson))
 - bump github/codeql-action action from v1 to v2 [\#135](https://github.com/LucasLarson/HQ9/pull/135) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `b484ad4` to `78ba498` [\#134](https://github.com/LucasLarson/HQ9/pull/134) ([renovate[bot]](https://github.com/apps/renovate))
 - bump `peter-evans/create-pull-request` action from v3 to v4 [\#133](https://github.com/LucasLarson/HQ9/pull/133) ([renovate[bot]](https://github.com/apps/renovate))
