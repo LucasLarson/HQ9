@@ -23,6 +23,7 @@
 
 **Merged pull requests:**
 
+- Update gitpod/workspace-full digest to abf416b [\#138](https://github.com/LucasLarson/HQ9/pull/138) ([renovate[bot]](https://github.com/apps/renovate))
 - remove `git.io` links \(fix \#136\) [\#137](https://github.com/LucasLarson/HQ9/pull/137) ([LucasLarson](https://github.com/LucasLarson))
 - bump github/codeql-action action from v1 to v2 [\#135](https://github.com/LucasLarson/HQ9/pull/135) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `b484ad4` to `78ba498` [\#134](https://github.com/LucasLarson/HQ9/pull/134) ([renovate[bot]](https://github.com/apps/renovate))
