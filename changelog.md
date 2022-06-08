@@ -23,6 +23,7 @@
 
 **Merged pull requests:**
 
+- bump gitpod/workspace-full from `dc1dfc3` to `26d2f85` [\#140](https://github.com/LucasLarson/HQ9/pull/140) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full digest to dc1dfc3 [\#139](https://github.com/LucasLarson/HQ9/pull/139) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gitpod/workspace-full digest to abf416b [\#138](https://github.com/LucasLarson/HQ9/pull/138) ([renovate[bot]](https://github.com/apps/renovate))
 - remove `git.io` links \(fix \#136\) [\#137](https://github.com/LucasLarson/HQ9/pull/137) ([LucasLarson](https://github.com/LucasLarson))
@@ -214,7 +215,7 @@
 
 **Merged pull requests:**
 
-- Configure WhiteSource Bolt for GitHub [\#3](https://github.com/LucasLarson/HQ9/pull/3) ([whitesource-bolt-for-github[bot]](https://github.com/apps/whitesource-bolt-for-github))
+- Configure WhiteSource Bolt for GitHub [\#3](https://github.com/LucasLarson/HQ9/pull/3) ([mend-bolt-for-github[bot]](https://github.com/apps/mend-bolt-for-github))
 
 ## [v0.2.0](https://github.com/LucasLarson/HQ9/tree/v0.2.0) (2020-07-02)
 
