@@ -10,8 +10,10 @@
 
 **Fixed bugs:**
 
+- the readme’s replit badge is too big [\#142](https://github.com/LucasLarson/HQ9/issues/142)
 - `git.io` deprecation [\#136](https://github.com/LucasLarson/HQ9/issues/136)
 - @DeepCodeAI’s badge no longer works [\#116](https://github.com/LucasLarson/HQ9/issues/116)
+- restore old @replit badge \(fix \#142; modify `9cf96faecf`\) [\#143](https://github.com/LucasLarson/HQ9/pull/143) ([LucasLarson](https://github.com/LucasLarson))
 - remove @DeepCodeAI badge, link to results \(fix \#116\) [\#117](https://github.com/LucasLarson/HQ9/pull/117) ([LucasLarson](https://github.com/LucasLarson))
 - upgrade CodeQL analysis to better emulate template [\#106](https://github.com/LucasLarson/HQ9/pull/106) ([LucasLarson](https://github.com/LucasLarson))
 
