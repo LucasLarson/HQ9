@@ -25,6 +25,7 @@
 
 **Merged pull requests:**
 
+- bump gitpod/workspace-full from `079f832` to `c1ffc43` [\#152](https://github.com/LucasLarson/HQ9/pull/152) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `de69327` to `079f832` [\#151](https://github.com/LucasLarson/HQ9/pull/151) ([renovate[bot]](https://github.com/apps/renovate))
 - repair changelog workflow [\#149](https://github.com/LucasLarson/HQ9/pull/149) ([LucasLarson](https://github.com/LucasLarson))
 - bump Contributor Covenant Code of Conduct to v2.1 [\#148](https://github.com/LucasLarson/HQ9/pull/148) ([LucasLarson](https://github.com/LucasLarson))
