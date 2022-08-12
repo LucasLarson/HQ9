@@ -25,6 +25,7 @@
 
 **Merged pull requests:**
 
+- bump gitpod/workspace-full from `c1ffc43` to `9a6ffa0` \(\#153, \#154\) [\#154](https://github.com/LucasLarson/HQ9/pull/154) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `079f832` to `c1ffc43` [\#152](https://github.com/LucasLarson/HQ9/pull/152) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `de69327` to `079f832` [\#151](https://github.com/LucasLarson/HQ9/pull/151) ([renovate[bot]](https://github.com/apps/renovate))
 - run shellcheck on fenced code in Markdown files [\#150](https://github.com/LucasLarson/HQ9/pull/150) ([LucasLarson](https://github.com/LucasLarson))
