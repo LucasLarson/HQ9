@@ -33,3 +33,4 @@ jobs:
             }}/blob/${{ github.base_ref }}/.github/workflows/autofix.yml).
           labels: CI/CD
           branch: format-json
+          base: ${{ github.head_ref }}
