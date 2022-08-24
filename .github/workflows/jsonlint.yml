@@ -7,9 +7,8 @@ on:
       - main
 
 jobs:
-
-  json:
-    name: Format JSON files and create a PR
+  format-json:
+    name: Format JSON files and create a pull request
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
