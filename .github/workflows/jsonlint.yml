@@ -2,10 +2,9 @@
 name: JSON Lint
 on:
   push:
-    # Only targets develop branch to avoid amplification effects of auto-fixing
-    # the exact same stuff in multiple non-rebased branches.
+    # target only the default branch to avoid duplicate worklow runs
     branches:
-    # - 'develop'
+      - main
 
 jobs:
 
