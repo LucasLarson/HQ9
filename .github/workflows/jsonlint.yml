@@ -1,5 +1,5 @@
 ---
-name: Autofix
+name: JSON Lint
 on:
   push:
     # Only targets develop branch to avoid amplification effects of auto-fixing
