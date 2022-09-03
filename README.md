@@ -1,12 +1,14 @@
 # HQ9+
 
 [![CodeFactor](https://www.codefactor.io/repository/github/lucaslarson/hq9/badge)](https://www.codefactor.io/repository/github/lucaslarson/hq9)
+[![Gitpod: ready to code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/LucasLarson/HQ9)
+[![Run on Repl.it](https://github.com/replit/replit.github.io/raw/8d6b0eaf1c/static/images/repls/run-on-replit.svg)](https://repl.it/github/LucasLarson/HQ9)
+[![Google: ready to build](https://img.shields.io/badge/Google%20Cloud%20Shell-build-5391fe?logo=google-cloud&logoColor=fff)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/LucasLarson/HQ9)
 [![Codeac](https://static.codeac.io/badges/2-274529532.svg "Codeac.io")](https://app.codeac.io/github/LucasLarson/HQ9)
 [![C++ CI](https://github.com/LucasLarson/HQ9/workflows/C++%20CI/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"C%2B%2B+CI")
 [![Super-Linter](https://github.com/LucasLarson/HQ9/workflows/Super-Linter/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"Super-Linter")
 [![CodeQL analysis](https://github.com/LucasLarson/HQ9/workflows/CodeQL%20analysis/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"CodeQL%20analysis")
-[![DeepCode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6Ikx1Y2FzTGFyc29uIiwicmVwbzEiOiJIUTkiLCJpbmNsdWRlTGludCI6ZmFsc2UsImF1dGhvcklkIjoxNTg0MiwiaWF0IjoxNTk5NzU0OTk0fQ.2vnmnRClDJONlco1vdiqOJt7gNYiqnT9kyWxFZ_vFuw)](https://www.deepcode.ai/app/gh/LucasLarson/HQ9/_/dashboard)
-[![GPLP](https://img.shields.io/badge/license-GPLP-blue "GNU General Public License for Pedants")](https://github.com/LucasLarson/HQ9/blob/main/LICENSE.md)
+[![GPLP](https://img.shields.io/badge/license-GPLP-blue "GNU General Public License for Pedants")](https://github.com/LucasLarson/HQ9/blob/main/license.adoc)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLucasLarson%2FHQ9.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FLucasLarson%2FHQ9?ref=badge_shield)
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
@@ -20,6 +22,7 @@
 - [Implementation](#implementation)
 
 <!-- /TOC -->
+
 This is an interpreter of the entire HQ9+ programming language, implemented
 in&nbsp;C++20. The output of&nbsp;`9` is Rosetta&nbsp;Stone-compliant and takes
 a balanced approach to the recursion-versus-readability&nbsp;problem.
@@ -53,7 +56,7 @@ clang++ -std=c++2a --verbose -v -Wall -Wextra -pedantic -g -lm -lstdc++ -O0 \
   -fdiagnostics-print-source-range-info -fdiagnostics-show-option -fident \
   -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
   -ftime-report -ftrapv -integrated-as -pthread -save-stats -save-temps \
-  $(find * -iname '*\.cpp') -o HQ9+ || ./bootstrap.sh
+  ./*.cpp -o HQ9+ || ./bootstrap.sh
 ```
 
 4. run the&nbsp;executable
@@ -63,13 +66,14 @@ clang++ -std=c++2a --verbose -v -Wall -Wextra -pedantic -g -lm -lstdc++ -O0 \
 ```
 
 5. try any combination of input specified in the&nbsp;language. My
-favorite’s&nbsp;`9`:
+   favorite’s&nbsp;`9`:
 
 ```shell
 9
 ```
 
 ---
+
 ## Background
 
 HQ9+ is a programming language written by Cliff L. Biffle in the
@@ -80,15 +84,15 @@ web.archive.org/web/20010511232301id_/cliff.biffle.org/esoterica/hq9plus.html
 
 ### C
 
-C, written by Dennis Ritchie and Ken Thompson in the&nbsp;mid‑1900s, is the
-more popular successor to the B&nbsp;programming&nbsp;language.
+C, written by Dennis Ritchie and Ken Thompson in the&nbsp;mid‑1900s, is the more
+popular successor to the B&nbsp;programming&nbsp;language.
 
 #### C89
 
 C89 is the functional equivalent of ANSI&nbsp;C and was published in the
-late&nbsp;1900s. In 2020, [v0.3.1 of this HQ9+
-interpreter](https://github.com/LucasLarson/HQ9/tree/v0.3.1) was published
-in&nbsp;C89.
+late&nbsp;1900s. In 2020,
+[v0.3.1 of this HQ9+ interpreter](https://github.com/LucasLarson/HQ9/tree/v0.3.1)
+was published in&nbsp;C89.
 
 ##### C89.5
 
@@ -105,11 +109,12 @@ of its parent language,&nbsp;C.
 
 The release of the version of the C++ programming language whose features were
 finalized just prior to a pandemic, but which at release time, had still not
-been incorporated into an ISO&nbsp;standard. In 2020, [v1.0.0 of this HQ9+
-interpreter](https://github.com/LucasLarson/HQ9/tree/v1.0.0) was published
-in&nbsp;C++20.
+been incorporated into an ISO&nbsp;standard. In 2020,
+[v1.0.0 of this HQ9+ interpreter](https://github.com/LucasLarson/HQ9/tree/v1.0.0)
+was published in&nbsp;C++20.
 
 ---
+
 ## Implementation
 
 Where a specification omits implementation details&nbsp;– where a language’s
@@ -129,7 +134,3 @@ without drawing conclusions, this implementation is responsive to the ambiguity
 by tracking the accumulator’s value, but preventing accession to&nbsp;it.
 Further research must verify whether this is a safer alternative than writing
 to&nbsp;`/dev/null`, which may raise concerns about data&nbsp;loss.
-
-
-## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLucasLarson%2FHQ9.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FLucasLarson%2FHQ9?ref=badge_large)

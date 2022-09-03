@@ -1,0 +1,128 @@
+---
+name: Changelog
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    if: "!contains(github.event.head_commit.message, 'update changelog')"
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1.0
+      - name: Install `github_changelog_generator`
+        run: |
+          command gem install github_changelog_generator
+      - name: Install `markdownlint`
+        run: |
+          command npm install markdownlint
+          command npm install markdownlint-cli
+      - name: Ensure changelog exists
+        run: |
+          test -n "$(
+            command find -- . \
+              -maxdepth 1 \
+              -type f \
+              -name '*.m*d*' \
+              '(' \
+              -name 'change*log*' -o \
+              -name 'CHANGE*LOG*' \
+              ')'
+          )" ||
+            command touch -- ./changelog.md
+      - name: Create local changes
+        run: |
+          command github_changelog_generator \
+            --user "$(
+              command git config --get-regexp -- 'remote.*url' |
+                command sed -E \
+                  -e 's/(git@|https:\/\/)//' \
+                  -e 's/:/\//' \
+                  -e 's/\.git$//' |
+                command awk -F '/' '{print $2}' |
+                command head -n 1
+            )" \
+            --project "$(
+              command git remote get-url "$(
+                {
+                  command git config --get --worktree checkout.defaultRemote ||
+                    command git config --get --local checkout.defaultRemote ||
+                    command git config --get --system checkout.defaultRemote ||
+                    command git config --get --global checkout.defaultRemote
+                } 2>/dev/null ||
+                  printf 'origin'
+              )" |
+                command tr -d '[:space:]' |
+                command xargs basename |
+                command sed -e 's/\.git$//'
+            )" \
+            --token ${{ secrets.GITHUB_TOKEN || secrets.PAT }} \
+            --exclude-labels 'duplicate,question,invalid,wontfix,nodoc' \
+            --output "$(
+              command find -- . \
+                -maxdepth 1 \
+                -type f \
+                -name '*.m*d*' \
+                '(' \
+                -name 'change*log*' -o \
+                -name 'CHANGE*LOG*' \
+                ')' |
+                command sed -e 's/^.\///'
+            )"
+      - name: Repair changelog credit
+        run: |
+          command find -- . \
+            -maxdepth 1 \
+            -type f \
+            -name '*.m*d*' \
+            '(' \
+            -name 'change*log*' -o \
+            -name 'CHANGE*LOG*' \
+            ')' \
+            -print \
+            -exec sed -i \
+            -e 's/This Changelog/This changelog/' \
+            -e 's/automatically generated/\[automatically generated\]()/' \
+            -e 's/\]()/\](.\/.github\/workflows\/changelog.yml)/' \
+            -e 's/generator)\*/generator).\*/' '{}' '+'
+      - name: Lint changelog
+        run: |
+          command find -- . \
+            -maxdepth 1 \
+            -type f \
+            -name '*.m*d*' \
+            '(' \
+            -name 'change*log*' -o \
+            -name 'CHANGE*LOG*' \
+            ')' \
+            -print \
+            -exec npm exec -- markdownlint --fix -- '{}' ';'
+      - name: Commit files
+        run: |
+          command git config -- user.email 'actions@github.com'
+          command git config -- user.name 'GitHub'
+          command find -- . \
+            -maxdepth 1 \
+            -type f \
+            -name '*.m*d*' \
+            '(' \
+            -name 'change*log*' -o \
+            -name 'CHANGE*LOG*' \
+            ')' \
+            -print \
+            -exec git add --verbose -- '{}' ';'
+          command git commit --verbose \
+            --message='update changelog' ||
+            exit 0
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN || secrets.PAT }}
+          branch: ${{ github.ref }}
