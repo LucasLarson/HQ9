@@ -103,6 +103,7 @@
 - apply formatting, best practices to AsciiDoc document [\#48](https://github.com/LucasLarson/HQ9/pull/48) ([LucasLarson](https://github.com/LucasLarson))
 - add § strategy to CodeQL workflow [\#47](https://github.com/LucasLarson/HQ9/pull/47) ([LucasLarson](https://github.com/LucasLarson))
 - repair link to license [\#46](https://github.com/LucasLarson/HQ9/pull/46) ([LucasLarson](https://github.com/LucasLarson))
+- add license scan status badge [\#19](https://github.com/LucasLarson/HQ9/pull/19) ([fossabot](https://github.com/fossabot))
 
 ## [v1.2.4](https://github.com/LucasLarson/HQ9/tree/v1.2.4) (2020-10-28)
 
