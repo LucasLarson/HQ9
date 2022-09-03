@@ -6,7 +6,7 @@
 
 **Implemented enhancements:**
 
-- ignore semver minor @Dependabot updates  [\#101](https://github.com/LucasLarson/HQ9/pull/101) ([LucasLarson](https://github.com/LucasLarson))
+- ignore SemVer-minor @Dependabot updates [\#101](https://github.com/LucasLarson/HQ9/pull/101) ([LucasLarson](https://github.com/LucasLarson))
 
 **Fixed bugs:**
 
@@ -172,7 +172,7 @@
 
 **Merged pull requests:**
 
-- rename Lint Code Base workflow to Super-Linter [\#18](https://github.com/LucasLarson/HQ9/pull/18) ([LucasLarson](https://github.com/LucasLarson))
+- rename Lint Code Base workflow to Super-Linter [\#18](https://github.com/LucasLarson/HQ9/pull/18) ([LucasLarson](https://github.com/LucasLarson))
 - add @GitHub issue templates [\#17](https://github.com/LucasLarson/HQ9/pull/17) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v1.1.3](https://github.com/LucasLarson/HQ9/tree/v1.1.3) (2020-09-18)
