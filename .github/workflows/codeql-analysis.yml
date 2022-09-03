@@ -4,8 +4,7 @@ name: "CodeQL Analysis"
 on:
   push:
   pull_request:
-    # The branches below must be a subset of the `push:` branches above, if any
-    branches:
+
   schedule:
     #        ┌────────── minute (0 - 59)
     #        │  ┌─────── hour (0 - 23)
