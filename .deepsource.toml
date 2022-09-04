@@ -1,5 +1,20 @@
 version = 1
 
+exclude_patterns = [
+  "**/*copilot*",
+  "**/*vscode*",
+  "**/.git/*",
+  "**/Application Support/*",
+  "**/archive/*",
+  "**/custom/plugins/*",
+  "**/custom/themes/*",
+  "**/node_modules/*",
+  "**/package-lock.json",
+  "**/t/*",
+  "**/Test*",
+  "**/test*"
+]
+
 [[analyzers]]
 name = "python"
 enabled = true
