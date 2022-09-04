@@ -16,33 +16,15 @@ exclude_patterns = [
 ]
 
 [[analyzers]]
-name = "python"
+name = "ansible"
 enabled = true
 
-  [analyzers.meta]
-  runtime_version = "3.x.x"
-
 [[analyzers]]
-name = "go"
-enabled = true
-
-  [analyzers.meta]
-  import_paths = ['github.com/LucasLarson/"$(git rev-parse --show-toplevel | xargs basename)"']
-
-[[analyzers]]
-name = "test-coverage"
+name = "csharp"
 enabled = true
 
 [[analyzers]]
 name = "docker"
-enabled = true
-
-[[analyzers]]
-name = "ruby"
-enabled = true
-
-[[analyzers]]
-name = "terraform"
 enabled = true
 
 [[analyzers]]
@@ -53,26 +35,57 @@ enabled = true
   style_guide = "standard"
   environment = ["browser"]
 
+[[transformers]]
+name = "standardjs"
+enabled = true
+
+[[analyzers]]
+name = "php"
+enabled = true
+
+[[transformers]]
+name = "php-cs-fixer"
+enabled = true
+
+[[analyzers]]
+name = "python"
+enabled = true
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[transformers]]
+name = "black"
+enabled = true
+
+[[analyzers]]
+name = "ruby"
+enabled = true
+
+[[analyzers]]
+name = "rust"
+enabled = true
+
+[[analyzers]]
+name = "scala"
+enabled = true
+
+[[analyzers]]
+name = "secrets"
+enabled = true
+
+[[analyzers]]
+name = "shell"
+enabled = true
+
 [[analyzers]]
 name = "sql"
 enabled = true
 
-[[transformers]]
-name = "gofmt"
+[[analyzers]]
+name = "terraform"
 enabled = true
 
-[[transformers]]
-name = "autopep8"
-enabled = true
-
-[[transformers]]
-name = "isort"
-enabled = true
-
-[[transformers]]
-name = "standardrb"
-enabled = true
-
-[[transformers]]
-name = "standardjs"
+[[analyzers]]
+name = "test-coverage"
 enabled = true
