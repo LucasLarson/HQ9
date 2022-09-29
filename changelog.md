@@ -25,6 +25,7 @@
 
 **Merged pull requests:**
 
+- bump gitpod/workspace-full from `6fd572d` to `de0088d` [\#159](https://github.com/LucasLarson/HQ9/pull/159) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `84ae724` to `6fd572d` [\#158](https://github.com/LucasLarson/HQ9/pull/158) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `2dac62c` to `84ae724` [\#157](https://github.com/LucasLarson/HQ9/pull/157) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `a12d64a` to `2dac62c` [\#156](https://github.com/LucasLarson/HQ9/pull/156) ([renovate[bot]](https://github.com/apps/renovate))
