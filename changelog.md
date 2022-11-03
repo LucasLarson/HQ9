@@ -25,6 +25,7 @@
 
 **Merged pull requests:**
 
+- bump gitpod/workspace-full from `6d34c72` to `1ab874d` [\#166](https://github.com/LucasLarson/HQ9/pull/166) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `55aa57f` to `6d34c72` [\#165](https://github.com/LucasLarson/HQ9/pull/165) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `c5959e4` to `55aa57f` [\#164](https://github.com/LucasLarson/HQ9/pull/164) ([renovate[bot]](https://github.com/apps/renovate))
 - search the executable rather than checking its output \(\#162\) [\#163](https://github.com/LucasLarson/HQ9/pull/163) ([LucasLarson](https://github.com/LucasLarson))
