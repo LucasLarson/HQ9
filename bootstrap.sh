@@ -37,7 +37,7 @@ else
 
   # use the failed `if`’s return code
   # https://github.com/ohmyzsh/ohmyzsh/pull/9238#discussion_r484806772
-  return $?
+  exit $?
 fi
 
 # test running the executable ourselves
