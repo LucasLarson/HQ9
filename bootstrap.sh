@@ -27,9 +27,6 @@ elif [ "${platform-}" = Linux ]; then
 
 fi
 
-printf '\n\nSetting the compiled file%ss permissions...\n\n' "’"
-chmod 755 "${program-}"
-
 # check if the program is in fact executable
 if [ -x "./${program-}" ]; then
   printf 'Compiled program verified as executable...\n\n'
