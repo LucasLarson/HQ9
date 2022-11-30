@@ -27,14 +27,18 @@ elif [ "${platform-}" = Linux ]; then
 
 fi
 
-# check if the program is in fact executable
-if [ -x "./${program-}" ]; then
-  printf 'Compiled program verified as executable...\n\n'
-else
+# if compilation hasn’t yet succeeded, then
+# attempt to build using CMake and make
+if [ ! -x "./${program-}" ]; then
+  printf 'Attempting to build using CMake and make...\n\n'
+  cmake . &&
+    make
 
-  # use the failed `if`’s return code
+else
+  # otherwise use the failed `if`’s return code
   # https://github.com/ohmyzsh/ohmyzsh/pull/9238#discussion_r484806772
   exit $?
+
 fi
 
 # test running the executable ourselves
