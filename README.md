@@ -7,7 +7,7 @@
 [![Codeac](https://static.codeac.io/badges/2-274529532.svg "Codeac.io")](https://app.codeac.io/github/LucasLarson/HQ9)
 [![C++ CI](https://github.com/LucasLarson/HQ9/workflows/C++%20CI/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"C%2B%2B+CI")
 [![Super-Linter](https://github.com/LucasLarson/HQ9/workflows/Super-Linter/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"Super-Linter")
-[![CodeQL analysis](https://github.com/LucasLarson/HQ9/workflows/CodeQL%20analysis/badge.svg)](https://github.com/LucasLarson/HQ9/actions?query=workflow:"CodeQL%20analysis")
+[![CodeQL analysis](https://github.com/LucasLarson/HQ9/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/LucasLarson/HQ9/actions/workflows/codeql-analysis.yml)
 [![GPLP](https://img.shields.io/badge/license-GPLP-blue "GNU General Public License for Pedants")](https://github.com/LucasLarson/HQ9/blob/main/license.adoc)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLucasLarson%2FHQ9.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FLucasLarson%2FHQ9?ref=badge_shield)
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
