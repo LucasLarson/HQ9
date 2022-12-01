@@ -19,12 +19,14 @@
 
 **Closed issues:**
 
+- the Docker file includes boilerplate comments [\#170](https://github.com/LucasLarson/HQ9/issues/170)
 - `actions/setup-ruby` is deprecated [\#97](https://github.com/LucasLarson/HQ9/issues/97)
 - Action Required: Fix Renovate Configuration [\#84](https://github.com/LucasLarson/HQ9/issues/84)
 - the bootstrap’s syntax isn’t as standards- or best practices-compliant as it could be [\#79](https://github.com/LucasLarson/HQ9/issues/79)
 
 **Merged pull requests:**
 
+- remove boilerplate comments \(\#170\) [\#171](https://github.com/LucasLarson/HQ9/pull/171) ([LucasLarson](https://github.com/LucasLarson))
 - bump gitpod/workspace-full from `1b7bd34` to `4551cab` [\#169](https://github.com/LucasLarson/HQ9/pull/169) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `909e802` to `1b7bd34` [\#168](https://github.com/LucasLarson/HQ9/pull/168) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `1ab874d` to `909e802` [\#167](https://github.com/LucasLarson/HQ9/pull/167) ([renovate[bot]](https://github.com/apps/renovate))
