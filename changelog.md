@@ -10,6 +10,7 @@
 
 **Fixed bugs:**
 
+- Replit’s badge is broken [\#179](https://github.com/LucasLarson/HQ9/issues/179)
 - the readme’s replit badge is too big [\#142](https://github.com/LucasLarson/HQ9/issues/142)
 - `git.io` deprecation [\#136](https://github.com/LucasLarson/HQ9/issues/136)
 - @DeepCodeAI’s badge no longer works [\#116](https://github.com/LucasLarson/HQ9/issues/116)
@@ -26,6 +27,7 @@
 
 **Merged pull requests:**
 
+- repair broken Replit badge [\#180](https://github.com/LucasLarson/HQ9/pull/180) ([LucasLarson](https://github.com/LucasLarson))
 - bump gitpod/workspace-full from `2ed9566` to `d578722` [\#178](https://github.com/LucasLarson/HQ9/pull/178) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `b50b760` to `2ed9566` [\#177](https://github.com/LucasLarson/HQ9/pull/177) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `e0e6006` to `b50b760` [\#176](https://github.com/LucasLarson/HQ9/pull/176) ([renovate[bot]](https://github.com/apps/renovate))
