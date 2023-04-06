@@ -27,6 +27,7 @@
 
 **Merged pull requests:**
 
+- remove `push` trigger from CodeQL analysis workflow [\#184](https://github.com/LucasLarson/HQ9/pull/184) ([LucasLarson](https://github.com/LucasLarson))
 - bump gitpod/workspace-full from `d578722` to `5f2bbea` [\#181](https://github.com/LucasLarson/HQ9/pull/181) ([renovate[bot]](https://github.com/apps/renovate))
 - repair broken Replit badge [\#180](https://github.com/LucasLarson/HQ9/pull/180) ([LucasLarson](https://github.com/LucasLarson))
 - bump gitpod/workspace-full from `2ed9566` to `d578722` [\#178](https://github.com/LucasLarson/HQ9/pull/178) ([renovate[bot]](https://github.com/apps/renovate))
