@@ -27,6 +27,7 @@
 
 **Merged pull requests:**
 
+- add `flawfinder` workflow [\#185](https://github.com/LucasLarson/HQ9/pull/185) ([LucasLarson](https://github.com/LucasLarson))
 - remove `push` trigger from CodeQL analysis workflow [\#184](https://github.com/LucasLarson/HQ9/pull/184) ([LucasLarson](https://github.com/LucasLarson))
 - bump peter-evans/create-pull-request from 4 to 5 [\#183](https://github.com/LucasLarson/HQ9/pull/183) ([dependabot[bot]](https://github.com/apps/dependabot))
 - bump gitpod/workspace-full from `d578722` to `5f2bbea` [\#181](https://github.com/LucasLarson/HQ9/pull/181) ([renovate[bot]](https://github.com/apps/renovate))
