@@ -27,6 +27,7 @@
 
 **Merged pull requests:**
 
+- bump david-a-wheeler/flawfinder from `8e4a779` to 2.0.19 [\#187](https://github.com/LucasLarson/HQ9/pull/187) ([LucasLarson](https://github.com/LucasLarson))
 - add `flawfinder` workflow [\#185](https://github.com/LucasLarson/HQ9/pull/185) ([LucasLarson](https://github.com/LucasLarson))
 - remove `push` trigger from CodeQL analysis workflow [\#184](https://github.com/LucasLarson/HQ9/pull/184) ([LucasLarson](https://github.com/LucasLarson))
 - bump peter-evans/create-pull-request from 4 to 5 [\#183](https://github.com/LucasLarson/HQ9/pull/183) ([dependabot[bot]](https://github.com/apps/dependabot))
