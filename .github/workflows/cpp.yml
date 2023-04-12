@@ -29,3 +29,4 @@ jobs:
           -fdiagnostics-print-source-range-info -fdiagnostics-show-option \
           -fshow-source-location -ftime-report \
           ./*.cpp -o HQ9+
+...
