@@ -27,6 +27,7 @@
 
 **Merged pull requests:**
 
+- bump gitpod/workspace-full from `5f2bbea` to `b0c6773` [\#191](https://github.com/LucasLarson/HQ9/pull/191) ([dependabot[bot]](https://github.com/apps/dependabot))
 - bump github/super-linter from 4 to 5 [\#189](https://github.com/LucasLarson/HQ9/pull/189) ([dependabot[bot]](https://github.com/apps/dependabot))
 - bump david-a-wheeler/flawfinder from `8e4a779` to 2.0.19 [\#187](https://github.com/LucasLarson/HQ9/pull/187) ([LucasLarson](https://github.com/LucasLarson))
 - add `flawfinder` workflow [\#185](https://github.com/LucasLarson/HQ9/pull/185) ([LucasLarson](https://github.com/LucasLarson))
