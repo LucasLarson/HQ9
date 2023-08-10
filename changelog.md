@@ -27,6 +27,7 @@
 
 **Merged pull requests:**
 
+- bump gitpod/workspace-full from `4cd82d3` to `ccdd164` [\#201](https://github.com/LucasLarson/HQ9/pull/201) ([dependabot[bot]](https://github.com/apps/dependabot))
 - remove license-check badge [\#199](https://github.com/LucasLarson/HQ9/pull/199) ([LucasLarson](https://github.com/LucasLarson))
 - bump gitpod/workspace-full from `f3646e7` to `4cd82d3` [\#196](https://github.com/LucasLarson/HQ9/pull/196) ([dependabot[bot]](https://github.com/apps/dependabot))
 - bump gitpod/workspace-full from `dc72512` to `f3646e7` [\#195](https://github.com/LucasLarson/HQ9/pull/195) ([renovate[bot]](https://github.com/apps/renovate))
