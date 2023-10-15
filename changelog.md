@@ -27,6 +27,7 @@
 
 **Merged pull requests:**
 
+- bump ad-m/github-push-action from v0.6.0 to v0.8.0 [\#213](https://github.com/LucasLarson/HQ9/pull/213) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `511cecd` to `fff2ddd` [\#212](https://github.com/LucasLarson/HQ9/pull/212) ([dependabot[bot]](https://github.com/apps/dependabot))
 - bump gitpod/workspace-full from `35971a5` to `511cecd` [\#208](https://github.com/LucasLarson/HQ9/pull/208) ([dependabot[bot]](https://github.com/apps/dependabot))
 - bump actions/checkout from 3 to 4 [\#206](https://github.com/LucasLarson/HQ9/pull/206) ([dependabot[bot]](https://github.com/apps/dependabot))
