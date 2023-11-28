@@ -1,1 +1,1 @@
-FROM gitpod/workspace-full@sha256:fff2dddffbc1dceff41125a87e2f1f7d06a89db9ccd5c74d6f14d35d28b8f0bd
+FROM gitpod/workspace-full@sha256:892a78e7b23654c29e64c0627a613467e8b7b376b769f2ca8a8442c6d154883f
