@@ -27,6 +27,7 @@
 
 **Merged pull requests:**
 
+- bump gitpod/workspace-full from `e3827b6` to `bc49ad8` [\#238](https://github.com/LucasLarson/HQ9/pull/238) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `fff2ddd` to `02b1c88` [\#224](https://github.com/LucasLarson/HQ9/pull/224) ([dependabot[bot]](https://github.com/apps/dependabot))
 - bump github/codeql-action from v2 to v3 [\#223](https://github.com/LucasLarson/HQ9/pull/223) ([dependabot[bot]](https://github.com/apps/dependabot))
 - bump ad-m/github-push-action from v0.6.0 to v0.8.0 [\#213](https://github.com/LucasLarson/HQ9/pull/213) ([renovate[bot]](https://github.com/apps/renovate))
