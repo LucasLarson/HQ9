@@ -28,6 +28,7 @@
 **Merged pull requests:**
 
 - bump create-pull-request from v6 to v7 [\#247](https://github.com/LucasLarson/HQ9/pull/247) ([renovate[bot]](https://github.com/apps/renovate))
+- bump gitpod/workspace-full from `bc49ad8` to `230285e` [\#241](https://github.com/LucasLarson/HQ9/pull/241) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `e3827b6` to `bc49ad8` [\#238](https://github.com/LucasLarson/HQ9/pull/238) ([renovate[bot]](https://github.com/apps/renovate))
 - bump peter-evans/create-pull-request from v5 to v6 [\#232](https://github.com/LucasLarson/HQ9/pull/232) ([dependabot[bot]](https://github.com/apps/dependabot))
 - bump gitpod/workspace-full from `fff2ddd` to `02b1c88` [\#224](https://github.com/LucasLarson/HQ9/pull/224) ([dependabot[bot]](https://github.com/apps/dependabot))
