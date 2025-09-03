@@ -13,9 +13,11 @@ on:
   schedule:
     - cron: "0 14 * * *"
 
+permissions:
+  contents: read
+
 jobs:
   build:
-
     runs-on: macos-latest
 
     steps:
@@ -29,4 +31,3 @@ jobs:
           -fdiagnostics-print-source-range-info -fdiagnostics-show-option \
           -fshow-source-location -ftime-report \
           ./*.cpp -o HQ9+
-...
