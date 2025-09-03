@@ -13,7 +13,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: ["main"]
   schedule:
-    - cron: '20 23 * * 1'
+    - cron: "20 23 * * 1"
 
 permissions:
   contents: read
@@ -33,11 +33,10 @@ jobs:
       - name: flawfinder_scan
         uses: david-a-wheeler/flawfinder@2.0.19
         with:
-          arguments: '--sarif ./'
-          output: 'flawfinder_results.sarif'
+          arguments: "--sarif ./"
+          output: "flawfinder_results.sarif"
 
       - name: Upload analysis results to GitHub Security tab
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: ${{github.workspace}}/flawfinder_results.sarif
-...

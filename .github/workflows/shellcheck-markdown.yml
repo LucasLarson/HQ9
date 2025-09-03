@@ -95,4 +95,3 @@ jobs:
             ./codesnippets_code \
             "$0" ||
             exit 1
-...
