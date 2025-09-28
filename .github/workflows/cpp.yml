@@ -14,7 +14,7 @@ on:
     - cron: "0 14 * * *"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
