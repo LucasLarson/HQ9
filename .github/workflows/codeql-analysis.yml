@@ -14,7 +14,7 @@ on:
     # Sunday at 1:30am UTC
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   CodeQL-Build:

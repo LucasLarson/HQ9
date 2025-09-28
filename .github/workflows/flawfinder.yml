@@ -16,7 +16,7 @@ on:
     - cron: "20 23 * * 1"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   flawfinder:
