@@ -27,6 +27,12 @@
 
 **Merged pull requests:**
 
+- fix: set GitHub actions permissions to `write` \(CKV2\_GHA\_1\) [\#255](https://github.com/LucasLarson/HQ9/pull/255) ([LucasLarson](https://github.com/LucasLarson))
+- chore\(deps\): bump super-linter from v7 to v8 [\#254](https://github.com/LucasLarson/HQ9/pull/254) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): bump ad-m/github-push-action from v0.8.0 to v1.0.0 [\#253](https://github.com/LucasLarson/HQ9/pull/253) ([renovate[bot]](https://github.com/apps/renovate))
+- fix: repair workflow permissions \(CKV2\_GHA\_1\) [\#252](https://github.com/LucasLarson/HQ9/pull/252) ([LucasLarson](https://github.com/LucasLarson))
+- chore\(deps\): update actions/checkout from v4 to v5 [\#251](https://github.com/LucasLarson/HQ9/pull/251) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): bump gitpod/workspace-full from `a47a68e` to `be3117a` [\#250](https://github.com/LucasLarson/HQ9/pull/250) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `bec45eb` to `a47a68e` [\#249](https://github.com/LucasLarson/HQ9/pull/249) ([renovate[bot]](https://github.com/apps/renovate))
 - bump gitpod/workspace-full from `230285e` to `bec45eb` [\#248](https://github.com/LucasLarson/HQ9/pull/248) ([renovate[bot]](https://github.com/apps/renovate))
 - bump create-pull-request from v6 to v7 [\#247](https://github.com/LucasLarson/HQ9/pull/247) ([renovate[bot]](https://github.com/apps/renovate))
