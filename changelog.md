@@ -27,6 +27,7 @@
 
 **Merged pull requests:**
 
+- chore\(config\): migrate renovate config [\#256](https://github.com/LucasLarson/HQ9/pull/256) ([renovate[bot]](https://github.com/apps/renovate))
 - fix: set GitHub actions permissions to `write` \(CKV2\_GHA\_1\) [\#255](https://github.com/LucasLarson/HQ9/pull/255) ([LucasLarson](https://github.com/LucasLarson))
 - chore\(deps\): bump super-linter from v7 to v8 [\#254](https://github.com/LucasLarson/HQ9/pull/254) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(deps\): bump ad-m/github-push-action from v0.8.0 to v1.0.0 [\#253](https://github.com/LucasLarson/HQ9/pull/253) ([renovate[bot]](https://github.com/apps/renovate))
