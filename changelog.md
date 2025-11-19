@@ -27,6 +27,7 @@
 
 **Merged pull requests:**
 
+- chore\(deps\): bump github/codeql-action from v3 to v4 [\#261](https://github.com/LucasLarson/HQ9/pull/261) ([renovate[bot]](https://github.com/apps/renovate))
 - fix: set CodeQL `security-events` permissions to `write` [\#258](https://github.com/LucasLarson/HQ9/pull/258) ([LucasLarson](https://github.com/LucasLarson))
 - revert: remove JSON lint [\#257](https://github.com/LucasLarson/HQ9/pull/257) ([LucasLarson](https://github.com/LucasLarson))
 - chore\(config\): migrate renovate config [\#256](https://github.com/LucasLarson/HQ9/pull/256) ([renovate[bot]](https://github.com/apps/renovate))
