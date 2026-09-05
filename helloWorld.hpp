@@ -13,4 +13,4 @@
 
 void helloWorld();
 
-#endif // HELLOWORLD_HPP_
+#endif  // HELLOWORLD_HPP_
