@@ -9,6 +9,7 @@
 */
 
 #include "./beer.hpp"
+#include <cstdio>
 #include <iostream>
 
 void beer() {
