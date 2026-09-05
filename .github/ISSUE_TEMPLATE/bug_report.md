@@ -1,7 +1,6 @@
 ---
 name: Bug report
 about: Create a report to help us improve.
-
 ---
 
 # Bug report
@@ -24,6 +23,7 @@ Add a clear and concise description of what the bug is.
 <!--
 Add precise steps to reproduce the bug.
 -->
+
 1. <!-- suggested format -->
 2.
 3.
