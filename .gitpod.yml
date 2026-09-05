@@ -4,4 +4,3 @@ image:
 
 tasks:
   - init: cmake . && make && ./HQ9+
-...
