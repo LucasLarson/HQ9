@@ -8,7 +8,7 @@
 
 */
 
-#include "beer.hpp"
+#include "./beer.hpp"
 #include <iostream>
 
 void beer() {
