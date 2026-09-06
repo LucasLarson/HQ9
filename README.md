@@ -37,8 +37,7 @@ iOS&nbsp;14.0&nbsp;beta.
 1. Open a terminal and get the&nbsp;code
 
 ```shell
-git clone --verbose --recurse-submodules --progress \
-  --branch main https://github.com/LucasLarson/HQ9
+git clone https://github.com/LucasLarson/HQ9
 ```
 
 2. move to the newly downloaded&nbsp;content
@@ -50,12 +49,7 @@ cd HQ9 || return 1
 3. build the executable for your&nbsp;machine
 
 ```shell
-clang++ -std=c++2a --verbose -v -Wall -Wextra -pedantic -g -lm -lstdc++ -O0 \
-  -fcaret-diagnostics -fdiagnostics-fixit-info -fdiagnostics-parseable-fixits \
-  -fdiagnostics-print-source-range-info -fdiagnostics-show-option -fident \
-  -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
-  -ftime-report -ftrapv -integrated-as -pthread -save-stats -save-temps \
-  ./*.cpp -o HQ9+ || ./bootstrap.sh
+./bootstrap.sh
 ```
 
 4. run the&nbsp;executable
