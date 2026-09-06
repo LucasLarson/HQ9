@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/LucasLarson/HQ9/tree/HEAD)
+## [v1.3.0](https://github.com/LucasLarson/HQ9/tree/v1.3.0) (2026-09-06)
 
-[Full Changelog](https://github.com/LucasLarson/HQ9/compare/v1.2.4...HEAD)
+[Full Changelog](https://github.com/LucasLarson/HQ9/compare/v1.2.4...v1.3.0)
 
 **Implemented enhancements:**
 
